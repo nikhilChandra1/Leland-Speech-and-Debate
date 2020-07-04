@@ -16,9 +16,6 @@
 		E681D4C824AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
 		E681D4C924AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
 		E681D4CA24AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
-		E681D4E424B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
-		E681D4E524B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
-		E681D4E624B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
 		E681D51F24B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
 		E681D52024B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
 		E681D52124B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
@@ -70,7 +67,6 @@
 		E681D54F24B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */; };
 		E681D55024B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */; };
 		E681D55124B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */; };
-		E681D55224B02EC500447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */; };
 		E681D55324B02EC500447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */; };
 		E681D55424B02EC500447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */; };
 		E681D55524B02EC500447BC5 /* Background for Tournaments.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FA24B02EC500447BC5 /* Background for Tournaments.png */; };
@@ -184,6 +180,9 @@
 		E681D5C124B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */; };
 		E681D5C224B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */; };
 		E681D5C324B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */; };
+		E681D5C524B0720200447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D5C424B0720200447BC5 /* GoogleService-Info.plist */; };
+		E681D5C624B0720200447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D5C424B0720200447BC5 /* GoogleService-Info.plist */; };
+		E681D5C724B0720200447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D5C424B0720200447BC5 /* GoogleService-Info.plist */; };
 		E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */; };
 		E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */; };
 		E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2724ADC8CF005422E1 /* ViewController.swift */; };
@@ -222,7 +221,6 @@
 		B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionPageController.swift; sourceTree = "<group>"; };
 		E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentScrollController.swift; sourceTree = "<group>"; };
-		E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/Leland Speech and Debate App Assets/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E681D4E824B02EC500447BC5 /* Our Mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission.png"; sourceTree = "<group>"; };
 		E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Component 2 – 1@2x.png"; sourceTree = "<group>"; };
 		E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@2x.png"; sourceTree = "<group>"; };
@@ -278,6 +276,7 @@
 		E681D51C24B02EC500447BC5 /* Events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@2x.png"; sourceTree = "<group>"; };
 		E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@2x.png"; sourceTree = "<group>"; };
 		E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
+		E681D5C424B0720200447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leland Speech and Debate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -447,7 +446,7 @@
 				E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */,
 				E6D10E3424ADC8D2005422E1 /* Info.plist */,
 				E6D10E2C24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld */,
-				E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */,
+				E681D5C424B0720200447BC5 /* GoogleService-Info.plist */,
 			);
 			path = "Leland Speech and Debate App";
 			sourceTree = "<group>";
@@ -595,7 +594,6 @@
 				E681D52524B02EC500447BC5 /* Tournament button@2x.png in Resources */,
 				E681D52E24B02EC500447BC5 /* Drop Down Meenu.png in Resources */,
 				E681D56A24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */,
-				E681D4E424B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D58824B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
 				E681D54F24B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */,
 				E681D53424B02EC500447BC5 /* #1 Team in the nation.png in Resources */,
@@ -612,6 +610,7 @@
 				E681D54624B02EC500447BC5 /* Events.png in Resources */,
 				E681D57624B02EC500447BC5 /* Tournament Info Label.png in Resources */,
 				E681D57924B02EC500447BC5 /* Logo.png in Resources */,
+				E681D5C524B0720200447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D5B224B02EC500447BC5 /* Tabroom@3x.png in Resources */,
 				E681D5A924B02EC500447BC5 /* Information Button@2x.png in Resources */,
 				E681D5A024B02EC500447BC5 /* Tabroom@2x.png in Resources */,
@@ -624,7 +623,6 @@
 				E6D10E2B24ADC8CF005422E1 /* Main.storyboard in Resources */,
 				E681D58B24B02EC500447BC5 /* Back Button@3x.png in Resources */,
 				E681D5AF24B02EC500447BC5 /* Information Button@3x.png in Resources */,
-				E681D55224B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D5B824B02EC500447BC5 /* Second Menu Button.png in Resources */,
 				E681D59124B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
 				E681D5A324B02EC500447BC5 /* Back Button.png in Resources */,
@@ -677,7 +675,6 @@
 				E681D58624B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
 				E681D59B24B02EC500447BC5 /* Sign up as a student.png in Resources */,
 				E681D58C24B02EC500447BC5 /* Back Button@3x.png in Resources */,
-				E681D4E524B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D52924B02EC500447BC5 /* Tournament button@3x.png in Resources */,
 				E681D58924B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
 				E681D57D24B02EC500447BC5 /* Component 2 – 1.png in Resources */,
@@ -686,6 +683,7 @@
 				E681D56224B02EC500447BC5 /* First Menu Button.png in Resources */,
 				E681D55F24B02EC500447BC5 /* Sign up as a student@2x.png in Resources */,
 				E681D58F24B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D5C624B0720200447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D53E24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */,
 				E681D5A424B02EC500447BC5 /* Back Button.png in Resources */,
 				E681D55624B02EC500447BC5 /* Background for Tournaments.png in Resources */,
@@ -740,7 +738,6 @@
 				E681D58724B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
 				E681D59C24B02EC500447BC5 /* Sign up as a student.png in Resources */,
 				E681D58D24B02EC500447BC5 /* Back Button@3x.png in Resources */,
-				E681D4E624B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D52A24B02EC500447BC5 /* Tournament button@3x.png in Resources */,
 				E681D58A24B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
 				E681D57E24B02EC500447BC5 /* Component 2 – 1.png in Resources */,
@@ -749,6 +746,7 @@
 				E681D56324B02EC500447BC5 /* First Menu Button.png in Resources */,
 				E681D56024B02EC500447BC5 /* Sign up as a student@2x.png in Resources */,
 				E681D59024B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D5C724B0720200447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D53F24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */,
 				E681D5A524B02EC500447BC5 /* Back Button.png in Resources */,
 				E681D55724B02EC500447BC5 /* Background for Tournaments.png in Resources */,

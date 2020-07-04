@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1FR-r7-qbs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O0g-gV-VgL">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -15,21 +15,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="#1 Team in the nation.png" translatesAutoresizingMaskIntoConstraints="NO" id="sLw-Tt-gR4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="#1 Team in the nation.png" translatesAutoresizingMaskIntoConstraints="NO" id="sLw-Tt-gR4">
                                 <rect key="frame" x="0.0" y="409" width="375" height="209"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="0Mb-GG-RPH"/>
+                                    <constraint firstAttribute="height" constant="209" id="LzY-wq-PAm"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-6R-EjZ">
-                                <rect key="frame" x="-99" y="101" width="572" height="364"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-6R-EjZ">
+                                <rect key="frame" x="-58" y="101" width="491" height="364"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="364" id="SaF-2J-dO3"/>
+                                    <constraint firstAttribute="width" constant="491" id="xCd-iI-MiN"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTW-o6-XI5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTW-o6-XI5">
                                 <rect key="frame" x="16" y="58" width="52" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="6Yu-QO-F1E"/>
+                                    <constraint firstAttribute="width" constant="52" id="hbh-nJ-oJr"/>
+                                </constraints>
                                 <state key="normal" image="First Menu Button.png"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.096557952463626862" green="0.14693740010261536" blue="0.22746101021766663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="sLw-Tt-gR4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Dg-X2-T6u"/>
+                            <constraint firstItem="sLw-Tt-gR4" firstAttribute="top" secondItem="cgz-6R-EjZ" secondAttribute="bottom" constant="-56" id="QE5-5k-AyO"/>
+                            <constraint firstItem="cgz-6R-EjZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QQV-zc-MyY"/>
+                            <constraint firstItem="cgz-6R-EjZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="WnS-57-M6O"/>
+                            <constraint firstItem="cgz-6R-EjZ" firstAttribute="top" secondItem="eTW-o6-XI5" secondAttribute="bottom" constant="-6" id="nf0-lk-JAz"/>
+                            <constraint firstItem="cgz-6R-EjZ" firstAttribute="leading" secondItem="eTW-o6-XI5" secondAttribute="trailing" constant="-126" id="oRd-1D-3Kn"/>
+                            <constraint firstItem="sLw-Tt-gR4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q4L-9N-qSc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -169,9 +187,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Our Mission.png" translatesAutoresizingMaskIntoConstraints="NO" id="cQe-s5-4xk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Our Mission.png" translatesAutoresizingMaskIntoConstraints="NO" id="cQe-s5-4xk">
                                 <rect key="frame" x="-1232" y="33" width="1609" height="885"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1609" id="GRe-cO-lDp"/>
+                                    <constraint firstAttribute="height" constant="885" id="hlt-93-Ocp"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9A-9O-QRi">
                                 <rect key="frame" x="48" y="53" width="37" height="38"/>
@@ -180,6 +201,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.085450164973735809" green="0.1466735303401947" blue="0.23530501127243042" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="cQe-s5-4xk" secondAttribute="trailing" constant="-18" id="9Gq-Mb-Qu7"/>
+                            <constraint firstItem="cQe-s5-4xk" firstAttribute="top" secondItem="Fay-Lr-4X4" secondAttribute="topMargin" constant="-11" id="epu-vW-LhT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VdN-AR-Uaf"/>
                     </view>
                 </viewController>
