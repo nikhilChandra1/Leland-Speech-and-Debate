@@ -3,145 +3,187 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C016867CDB7A183FCBE637F /* Pods_Leland_Speech_and_Debate_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BE5E763E14BFA7AD8B168D /* Pods_Leland_Speech_and_Debate_App.framework */; };
 		38A9D7F076E6128BCC9EF98B /* Pods_Leland_Speech_and_Debate_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */; };
 		49B010BA52F211678846D5CE /* Pods_Leland_Speech_and_Debate_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1386A76BC8A00F54925A0B /* Pods_Leland_Speech_and_Debate_AppTests.framework */; };
-		E681D44F24AFD72500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42B24AFD72500447BC5 /* Our Mission.png */; };
-		E681D45024AFD72500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42B24AFD72500447BC5 /* Our Mission.png */; };
-		E681D45124AFD72500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42B24AFD72500447BC5 /* Our Mission.png */; };
-		E681D45224AFD72500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42C24AFD72500447BC5 /* Tournament button@2x.png */; };
-		E681D45324AFD72500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42C24AFD72500447BC5 /* Tournament button@2x.png */; };
-		E681D45424AFD72500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42C24AFD72500447BC5 /* Tournament button@2x.png */; };
-		E681D45524AFD72500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42D24AFD72500447BC5 /* Tournament button@3x.png */; };
-		E681D45624AFD72500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42D24AFD72500447BC5 /* Tournament button@3x.png */; };
-		E681D45724AFD72500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42D24AFD72500447BC5 /* Tournament button@3x.png */; };
-		E681D45824AFD72500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */; };
-		E681D45924AFD72500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */; };
-		E681D45A24AFD72500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */; };
-		E681D45B24AFD72500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */; };
-		E681D45C24AFD72500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */; };
-		E681D45D24AFD72500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */; };
-		E681D45E24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */; };
-		E681D45F24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */; };
-		E681D46024AFD72500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */; };
-		E681D46124AFD72500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43124AFD72500447BC5 /* Information Button.png */; };
-		E681D46224AFD72500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43124AFD72500447BC5 /* Information Button.png */; };
-		E681D46324AFD72500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43124AFD72500447BC5 /* Information Button.png */; };
-		E681D46424AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */; };
-		E681D46524AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */; };
-		E681D46624AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */; };
-		E681D46724AFD72500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43324AFD72500447BC5 /* Our Mission@3x.png */; };
-		E681D46824AFD72500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43324AFD72500447BC5 /* Our Mission@3x.png */; };
-		E681D46924AFD72500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43324AFD72500447BC5 /* Our Mission@3x.png */; };
-		E681D46A24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */; };
-		E681D46B24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */; };
-		E681D46C24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */; };
-		E681D47024AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */; };
-		E681D47124AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */; };
-		E681D47224AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */; };
-		E681D47324AFD72500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43724AFD72500447BC5 /* Our Mission@2x.png */; };
-		E681D47424AFD72500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43724AFD72500447BC5 /* Our Mission@2x.png */; };
-		E681D47524AFD72500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43724AFD72500447BC5 /* Our Mission@2x.png */; };
-		E681D47624AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */; };
-		E681D47724AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */; };
-		E681D47824AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */; };
-		E681D47924AFD72500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43924AFD72500447BC5 /* Tournament button.png */; };
-		E681D47A24AFD72500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43924AFD72500447BC5 /* Tournament button.png */; };
-		E681D47B24AFD72500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43924AFD72500447BC5 /* Tournament button.png */; };
-		E681D47C24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */; };
-		E681D47D24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */; };
-		E681D47E24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */; };
-		E681D47F24AFD72500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43B24AFD72500447BC5 /* First Menu Button.png */; };
-		E681D48024AFD72500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43B24AFD72500447BC5 /* First Menu Button.png */; };
-		E681D48124AFD72500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43B24AFD72500447BC5 /* First Menu Button.png */; };
-		E681D48224AFD72500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */; };
-		E681D48324AFD72500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */; };
-		E681D48424AFD72500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */; };
-		E681D48524AFD72500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */; };
-		E681D48624AFD72500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */; };
-		E681D48724AFD72500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */; };
-		E681D48824AFD72500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43E24AFD72500447BC5 /* Logo@3x.png */; };
-		E681D48924AFD72500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43E24AFD72500447BC5 /* Logo@3x.png */; };
-		E681D48A24AFD72500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43E24AFD72500447BC5 /* Logo@3x.png */; };
-		E681D48B24AFD72500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43F24AFD72500447BC5 /* Tournament Info Label.png */; };
-		E681D48C24AFD72500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43F24AFD72500447BC5 /* Tournament Info Label.png */; };
-		E681D48D24AFD72500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43F24AFD72500447BC5 /* Tournament Info Label.png */; };
-		E681D48E24AFD72500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44024AFD72500447BC5 /* Logo.png */; };
-		E681D48F24AFD72500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44024AFD72500447BC5 /* Logo.png */; };
-		E681D49024AFD72500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44024AFD72500447BC5 /* Logo.png */; };
-		E681D49124AFD72500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44124AFD72500447BC5 /* Logo@2x.png */; };
-		E681D49224AFD72500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44124AFD72500447BC5 /* Logo@2x.png */; };
-		E681D49324AFD72500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44124AFD72500447BC5 /* Logo@2x.png */; };
-		E681D49424AFD72500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44224AFD72500447BC5 /* First Menu Button@2x.png */; };
-		E681D49524AFD72500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44224AFD72500447BC5 /* First Menu Button@2x.png */; };
-		E681D49624AFD72500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44224AFD72500447BC5 /* First Menu Button@2x.png */; };
-		E681D49724AFD72500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */; };
-		E681D49824AFD72500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */; };
-		E681D49924AFD72500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */; };
-		E681D49A24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */; };
-		E681D49B24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */; };
-		E681D49C24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */; };
-		E681D49D24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */; };
-		E681D49E24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */; };
-		E681D49F24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */; };
-		E681D4A024AFD72500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44624AFD72500447BC5 /* Events@3x.png */; };
-		E681D4A124AFD72500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44624AFD72500447BC5 /* Events@3x.png */; };
-		E681D4A224AFD72500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44624AFD72500447BC5 /* Events@3x.png */; };
-		E681D4A324AFD72500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44724AFD72500447BC5 /* Sign Up a Judge.png */; };
-		E681D4A424AFD72500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44724AFD72500447BC5 /* Sign Up a Judge.png */; };
-		E681D4A524AFD72500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44724AFD72500447BC5 /* Sign Up a Judge.png */; };
-		E681D4A624AFD72500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44824AFD72500447BC5 /* Sign up as a student.png */; };
-		E681D4A724AFD72500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44824AFD72500447BC5 /* Sign up as a student.png */; };
-		E681D4A824AFD72500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44824AFD72500447BC5 /* Sign up as a student.png */; };
-		E681D4A924AFD72500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44924AFD72500447BC5 /* Information Button@2x.png */; };
-		E681D4AA24AFD72500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44924AFD72500447BC5 /* Information Button@2x.png */; };
-		E681D4AB24AFD72500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44924AFD72500447BC5 /* Information Button@2x.png */; };
-		E681D4AC24AFD72500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44A24AFD72500447BC5 /* Information Button@3x.png */; };
-		E681D4AD24AFD72500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44A24AFD72500447BC5 /* Information Button@3x.png */; };
-		E681D4AE24AFD72500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44A24AFD72500447BC5 /* Information Button@3x.png */; };
-		E681D4AF24AFD72500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44B24AFD72500447BC5 /* Second Menu Button.png */; };
-		E681D4B024AFD72500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44B24AFD72500447BC5 /* Second Menu Button.png */; };
-		E681D4B124AFD72500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44B24AFD72500447BC5 /* Second Menu Button.png */; };
-		E681D4B224AFD72500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44C24AFD72500447BC5 /* Events@2x.png */; };
-		E681D4B324AFD72500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44C24AFD72500447BC5 /* Events@2x.png */; };
-		E681D4B424AFD72500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44C24AFD72500447BC5 /* Events@2x.png */; };
-		E681D4B524AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */; };
-		E681D4B624AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */; };
-		E681D4B724AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */; };
-		E681D4B824AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */; };
-		E681D4B924AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */; };
-		E681D4BA24AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */; };
 		E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
 		E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
 		E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
-		E681D4C424AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */; };
-		E681D4C524AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */; };
-		E681D4C624AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */; };
 		E681D4C824AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
 		E681D4C924AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
 		E681D4CA24AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
-		E681D4CC24AFEB0200447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CB24AFEB0200447BC5 /* Events@3x.png */; };
-		E681D4CD24AFEB0200447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CB24AFEB0200447BC5 /* Events@3x.png */; };
-		E681D4CE24AFEB0200447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CB24AFEB0200447BC5 /* Events@3x.png */; };
-		E681D4D024AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */; };
-		E681D4D124AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */; };
-		E681D4D224AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */; };
-		E681D4D424AFF82700447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D324AFF82700447BC5 /* Tabroom@3x.png */; };
-		E681D4D524AFF82700447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D324AFF82700447BC5 /* Tabroom@3x.png */; };
-		E681D4D624AFF82700447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D324AFF82700447BC5 /* Tabroom@3x.png */; };
-		E681D4D824AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */; };
-		E681D4D924AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */; };
-		E681D4DA24AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */; };
-		E681D4DC24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */; };
-		E681D4DD24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */; };
-		E681D4DE24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */; };
 		E681D4E424B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
 		E681D4E524B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
 		E681D4E624B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
+		E681D51F24B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
+		E681D52024B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
+		E681D52124B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
+		E681D52224B02EC500447BC5 /* Component 2 – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */; };
+		E681D52324B02EC500447BC5 /* Component 2 – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */; };
+		E681D52424B02EC500447BC5 /* Component 2 – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */; };
+		E681D52524B02EC500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */; };
+		E681D52624B02EC500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */; };
+		E681D52724B02EC500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */; };
+		E681D52824B02EC500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EB24B02EC500447BC5 /* Tournament button@3x.png */; };
+		E681D52924B02EC500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EB24B02EC500447BC5 /* Tournament button@3x.png */; };
+		E681D52A24B02EC500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EB24B02EC500447BC5 /* Tournament button@3x.png */; };
+		E681D52B24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EC24B02EC500447BC5 /* Component 2 – 1@3x.png */; };
+		E681D52C24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EC24B02EC500447BC5 /* Component 2 – 1@3x.png */; };
+		E681D52D24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EC24B02EC500447BC5 /* Component 2 – 1@3x.png */; };
+		E681D52E24B02EC500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4ED24B02EC500447BC5 /* Drop Down Meenu.png */; };
+		E681D52F24B02EC500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4ED24B02EC500447BC5 /* Drop Down Meenu.png */; };
+		E681D53024B02EC500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4ED24B02EC500447BC5 /* Drop Down Meenu.png */; };
+		E681D53124B02EC500447BC5 /* Saint Francis Invitational Title.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EE24B02EC500447BC5 /* Saint Francis Invitational Title.png */; };
+		E681D53224B02EC500447BC5 /* Saint Francis Invitational Title.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EE24B02EC500447BC5 /* Saint Francis Invitational Title.png */; };
+		E681D53324B02EC500447BC5 /* Saint Francis Invitational Title.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EE24B02EC500447BC5 /* Saint Francis Invitational Title.png */; };
+		E681D53424B02EC500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EF24B02EC500447BC5 /* #1 Team in the nation.png */; };
+		E681D53524B02EC500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EF24B02EC500447BC5 /* #1 Team in the nation.png */; };
+		E681D53624B02EC500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4EF24B02EC500447BC5 /* #1 Team in the nation.png */; };
+		E681D53724B02EC500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F024B02EC500447BC5 /* Sign up as a student@3x.png */; };
+		E681D53824B02EC500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F024B02EC500447BC5 /* Sign up as a student@3x.png */; };
+		E681D53924B02EC500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F024B02EC500447BC5 /* Sign up as a student@3x.png */; };
+		E681D53A24B02EC500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F124B02EC500447BC5 /* Information Button.png */; };
+		E681D53B24B02EC500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F124B02EC500447BC5 /* Information Button.png */; };
+		E681D53C24B02EC500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F124B02EC500447BC5 /* Information Button.png */; };
+		E681D53D24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F224B02EC500447BC5 /* #1 Team in the nation@2x.png */; };
+		E681D53E24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F224B02EC500447BC5 /* #1 Team in the nation@2x.png */; };
+		E681D53F24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F224B02EC500447BC5 /* #1 Team in the nation@2x.png */; };
+		E681D54024B02EC500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F324B02EC500447BC5 /* Our Mission@3x.png */; };
+		E681D54124B02EC500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F324B02EC500447BC5 /* Our Mission@3x.png */; };
+		E681D54224B02EC500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F324B02EC500447BC5 /* Our Mission@3x.png */; };
+		E681D54324B02EC500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F424B02EC500447BC5 /* Tournament Info Label@3x.png */; };
+		E681D54424B02EC500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F424B02EC500447BC5 /* Tournament Info Label@3x.png */; };
+		E681D54524B02EC500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F424B02EC500447BC5 /* Tournament Info Label@3x.png */; };
+		E681D54624B02EC500447BC5 /* Events.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F524B02EC500447BC5 /* Events.png */; };
+		E681D54724B02EC500447BC5 /* Events.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F524B02EC500447BC5 /* Events.png */; };
+		E681D54824B02EC500447BC5 /* Events.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F524B02EC500447BC5 /* Events.png */; };
+		E681D54924B02EC500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F624B02EC500447BC5 /* Tournament Info Label@2x.png */; };
+		E681D54A24B02EC500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F624B02EC500447BC5 /* Tournament Info Label@2x.png */; };
+		E681D54B24B02EC500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F624B02EC500447BC5 /* Tournament Info Label@2x.png */; };
+		E681D54C24B02EC500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F724B02EC500447BC5 /* Our Mission@2x.png */; };
+		E681D54D24B02EC500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F724B02EC500447BC5 /* Our Mission@2x.png */; };
+		E681D54E24B02EC500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F724B02EC500447BC5 /* Our Mission@2x.png */; };
+		E681D54F24B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */; };
+		E681D55024B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */; };
+		E681D55124B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */; };
+		E681D55224B02EC500447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */; };
+		E681D55324B02EC500447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */; };
+		E681D55424B02EC500447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */; };
+		E681D55524B02EC500447BC5 /* Background for Tournaments.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FA24B02EC500447BC5 /* Background for Tournaments.png */; };
+		E681D55624B02EC500447BC5 /* Background for Tournaments.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FA24B02EC500447BC5 /* Background for Tournaments.png */; };
+		E681D55724B02EC500447BC5 /* Background for Tournaments.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FA24B02EC500447BC5 /* Background for Tournaments.png */; };
+		E681D55824B02EC500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FB24B02EC500447BC5 /* Tournament button.png */; };
+		E681D55924B02EC500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FB24B02EC500447BC5 /* Tournament button.png */; };
+		E681D55A24B02EC500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FB24B02EC500447BC5 /* Tournament button.png */; };
+		E681D55B24B02EC500447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FC24B02EC500447BC5 /* Saint Francis Invitational.png */; };
+		E681D55C24B02EC500447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FC24B02EC500447BC5 /* Saint Francis Invitational.png */; };
+		E681D55D24B02EC500447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FC24B02EC500447BC5 /* Saint Francis Invitational.png */; };
+		E681D55E24B02EC500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FD24B02EC500447BC5 /* Sign up as a student@2x.png */; };
+		E681D55F24B02EC500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FD24B02EC500447BC5 /* Sign up as a student@2x.png */; };
+		E681D56024B02EC500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FD24B02EC500447BC5 /* Sign up as a student@2x.png */; };
+		E681D56124B02EC500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FE24B02EC500447BC5 /* First Menu Button.png */; };
+		E681D56224B02EC500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FE24B02EC500447BC5 /* First Menu Button.png */; };
+		E681D56324B02EC500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FE24B02EC500447BC5 /* First Menu Button.png */; };
+		E681D56424B02EC500447BC5 /* Back Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FF24B02EC500447BC5 /* Back Button@2x.png */; };
+		E681D56524B02EC500447BC5 /* Back Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FF24B02EC500447BC5 /* Back Button@2x.png */; };
+		E681D56624B02EC500447BC5 /* Back Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4FF24B02EC500447BC5 /* Back Button@2x.png */; };
+		E681D56724B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50024B02EC500447BC5 /* Saint Francis Invitational Title@2x.png */; };
+		E681D56824B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50024B02EC500447BC5 /* Saint Francis Invitational Title@2x.png */; };
+		E681D56924B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50024B02EC500447BC5 /* Saint Francis Invitational Title@2x.png */; };
+		E681D56A24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50124B02EC500447BC5 /* Second Menu Button@2x.png */; };
+		E681D56B24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50124B02EC500447BC5 /* Second Menu Button@2x.png */; };
+		E681D56C24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50124B02EC500447BC5 /* Second Menu Button@2x.png */; };
+		E681D56D24B02EC500447BC5 /* Tabroom.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50224B02EC500447BC5 /* Tabroom.png */; };
+		E681D56E24B02EC500447BC5 /* Tabroom.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50224B02EC500447BC5 /* Tabroom.png */; };
+		E681D56F24B02EC500447BC5 /* Tabroom.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50224B02EC500447BC5 /* Tabroom.png */; };
+		E681D57024B02EC500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50324B02EC500447BC5 /* First Menu Button@3x.png */; };
+		E681D57124B02EC500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50324B02EC500447BC5 /* First Menu Button@3x.png */; };
+		E681D57224B02EC500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50324B02EC500447BC5 /* First Menu Button@3x.png */; };
+		E681D57324B02EC500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50424B02EC500447BC5 /* Logo@3x.png */; };
+		E681D57424B02EC500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50424B02EC500447BC5 /* Logo@3x.png */; };
+		E681D57524B02EC500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50424B02EC500447BC5 /* Logo@3x.png */; };
+		E681D57624B02EC500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50524B02EC500447BC5 /* Tournament Info Label.png */; };
+		E681D57724B02EC500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50524B02EC500447BC5 /* Tournament Info Label.png */; };
+		E681D57824B02EC500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50524B02EC500447BC5 /* Tournament Info Label.png */; };
+		E681D57924B02EC500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50624B02EC500447BC5 /* Logo.png */; };
+		E681D57A24B02EC500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50624B02EC500447BC5 /* Logo.png */; };
+		E681D57B24B02EC500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50624B02EC500447BC5 /* Logo.png */; };
+		E681D57C24B02EC500447BC5 /* Component 2 – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50724B02EC500447BC5 /* Component 2 – 1.png */; };
+		E681D57D24B02EC500447BC5 /* Component 2 – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50724B02EC500447BC5 /* Component 2 – 1.png */; };
+		E681D57E24B02EC500447BC5 /* Component 2 – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50724B02EC500447BC5 /* Component 2 – 1.png */; };
+		E681D57F24B02EC500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50824B02EC500447BC5 /* Logo@2x.png */; };
+		E681D58024B02EC500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50824B02EC500447BC5 /* Logo@2x.png */; };
+		E681D58124B02EC500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50824B02EC500447BC5 /* Logo@2x.png */; };
+		E681D58224B02EC500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50924B02EC500447BC5 /* First Menu Button@2x.png */; };
+		E681D58324B02EC500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50924B02EC500447BC5 /* First Menu Button@2x.png */; };
+		E681D58424B02EC500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50924B02EC500447BC5 /* First Menu Button@2x.png */; };
+		E681D58524B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50A24B02EC500447BC5 /* Saint Francis Invitational Title@3x.png */; };
+		E681D58624B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50A24B02EC500447BC5 /* Saint Francis Invitational Title@3x.png */; };
+		E681D58724B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50A24B02EC500447BC5 /* Saint Francis Invitational Title@3x.png */; };
+		E681D58824B02EC500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50B24B02EC500447BC5 /* Second Menu Button@3x.png */; };
+		E681D58924B02EC500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50B24B02EC500447BC5 /* Second Menu Button@3x.png */; };
+		E681D58A24B02EC500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50B24B02EC500447BC5 /* Second Menu Button@3x.png */; };
+		E681D58B24B02EC500447BC5 /* Back Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50C24B02EC500447BC5 /* Back Button@3x.png */; };
+		E681D58C24B02EC500447BC5 /* Back Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50C24B02EC500447BC5 /* Back Button@3x.png */; };
+		E681D58D24B02EC500447BC5 /* Back Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50C24B02EC500447BC5 /* Back Button@3x.png */; };
+		E681D58E24B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50D24B02EC500447BC5 /* Drop Down Meenu@3x.png */; };
+		E681D58F24B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50D24B02EC500447BC5 /* Drop Down Meenu@3x.png */; };
+		E681D59024B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50D24B02EC500447BC5 /* Drop Down Meenu@3x.png */; };
+		E681D59124B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */; };
+		E681D59224B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */; };
+		E681D59324B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */; };
+		E681D59424B02EC500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50F24B02EC500447BC5 /* Events@3x.png */; };
+		E681D59524B02EC500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50F24B02EC500447BC5 /* Events@3x.png */; };
+		E681D59624B02EC500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50F24B02EC500447BC5 /* Events@3x.png */; };
+		E681D59724B02EC500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51024B02EC500447BC5 /* Sign Up a Judge.png */; };
+		E681D59824B02EC500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51024B02EC500447BC5 /* Sign Up a Judge.png */; };
+		E681D59924B02EC500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51024B02EC500447BC5 /* Sign Up a Judge.png */; };
+		E681D59A24B02EC500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51124B02EC500447BC5 /* Sign up as a student.png */; };
+		E681D59B24B02EC500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51124B02EC500447BC5 /* Sign up as a student.png */; };
+		E681D59C24B02EC500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51124B02EC500447BC5 /* Sign up as a student.png */; };
+		E681D59D24B02EC500447BC5 /* Background for Tournaments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51224B02EC500447BC5 /* Background for Tournaments@2x.png */; };
+		E681D59E24B02EC500447BC5 /* Background for Tournaments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51224B02EC500447BC5 /* Background for Tournaments@2x.png */; };
+		E681D59F24B02EC500447BC5 /* Background for Tournaments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51224B02EC500447BC5 /* Background for Tournaments@2x.png */; };
+		E681D5A024B02EC500447BC5 /* Tabroom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51324B02EC500447BC5 /* Tabroom@2x.png */; };
+		E681D5A124B02EC500447BC5 /* Tabroom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51324B02EC500447BC5 /* Tabroom@2x.png */; };
+		E681D5A224B02EC500447BC5 /* Tabroom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51324B02EC500447BC5 /* Tabroom@2x.png */; };
+		E681D5A324B02EC500447BC5 /* Back Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51424B02EC500447BC5 /* Back Button.png */; };
+		E681D5A424B02EC500447BC5 /* Back Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51424B02EC500447BC5 /* Back Button.png */; };
+		E681D5A524B02EC500447BC5 /* Back Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51424B02EC500447BC5 /* Back Button.png */; };
+		E681D5A624B02EC500447BC5 /* Saint Francis Invitational@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51524B02EC500447BC5 /* Saint Francis Invitational@2x.png */; };
+		E681D5A724B02EC500447BC5 /* Saint Francis Invitational@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51524B02EC500447BC5 /* Saint Francis Invitational@2x.png */; };
+		E681D5A824B02EC500447BC5 /* Saint Francis Invitational@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51524B02EC500447BC5 /* Saint Francis Invitational@2x.png */; };
+		E681D5A924B02EC500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51624B02EC500447BC5 /* Information Button@2x.png */; };
+		E681D5AA24B02EC500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51624B02EC500447BC5 /* Information Button@2x.png */; };
+		E681D5AB24B02EC500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51624B02EC500447BC5 /* Information Button@2x.png */; };
+		E681D5AC24B02EC500447BC5 /* Saint Francis Invitational@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51724B02EC500447BC5 /* Saint Francis Invitational@3x.png */; };
+		E681D5AD24B02EC500447BC5 /* Saint Francis Invitational@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51724B02EC500447BC5 /* Saint Francis Invitational@3x.png */; };
+		E681D5AE24B02EC500447BC5 /* Saint Francis Invitational@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51724B02EC500447BC5 /* Saint Francis Invitational@3x.png */; };
+		E681D5AF24B02EC500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51824B02EC500447BC5 /* Information Button@3x.png */; };
+		E681D5B024B02EC500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51824B02EC500447BC5 /* Information Button@3x.png */; };
+		E681D5B124B02EC500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51824B02EC500447BC5 /* Information Button@3x.png */; };
+		E681D5B224B02EC500447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51924B02EC500447BC5 /* Tabroom@3x.png */; };
+		E681D5B324B02EC500447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51924B02EC500447BC5 /* Tabroom@3x.png */; };
+		E681D5B424B02EC500447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51924B02EC500447BC5 /* Tabroom@3x.png */; };
+		E681D5B524B02EC500447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51A24B02EC500447BC5 /* Background for Tournaments@3x.png */; };
+		E681D5B624B02EC500447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51A24B02EC500447BC5 /* Background for Tournaments@3x.png */; };
+		E681D5B724B02EC500447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51A24B02EC500447BC5 /* Background for Tournaments@3x.png */; };
+		E681D5B824B02EC500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51B24B02EC500447BC5 /* Second Menu Button.png */; };
+		E681D5B924B02EC500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51B24B02EC500447BC5 /* Second Menu Button.png */; };
+		E681D5BA24B02EC500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51B24B02EC500447BC5 /* Second Menu Button.png */; };
+		E681D5BB24B02EC500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51C24B02EC500447BC5 /* Events@2x.png */; };
+		E681D5BC24B02EC500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51C24B02EC500447BC5 /* Events@2x.png */; };
+		E681D5BD24B02EC500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51C24B02EC500447BC5 /* Events@2x.png */; };
+		E681D5BE24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */; };
+		E681D5BF24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */; };
+		E681D5C024B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */; };
+		E681D5C124B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */; };
+		E681D5C224B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */; };
+		E681D5C324B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */; };
 		E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */; };
 		E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */; };
 		E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2724ADC8CF005422E1 /* ViewController.swift */; };
@@ -178,50 +220,64 @@
 		657F92FA10A5FC3430EE0CBF /* Pods-Leland Speech and Debate AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppTests.release.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppTests/Pods-Leland Speech and Debate AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leland_Speech_and_Debate_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E681D42B24AFD72500447BC5 /* Our Mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission.png"; sourceTree = "<group>"; };
-		E681D42C24AFD72500447BC5 /* Tournament button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@2x.png"; sourceTree = "<group>"; };
-		E681D42D24AFD72500447BC5 /* Tournament button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@3x.png"; sourceTree = "<group>"; };
-		E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu.png"; sourceTree = "<group>"; };
-		E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation.png"; sourceTree = "<group>"; };
-		E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student@3x.png"; sourceTree = "<group>"; };
-		E681D43124AFD72500447BC5 /* Information Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button.png"; sourceTree = "<group>"; };
-		E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation@2x.png"; sourceTree = "<group>"; };
-		E681D43324AFD72500447BC5 /* Our Mission@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission@3x.png"; sourceTree = "<group>"; };
-		E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@3x.png"; sourceTree = "<group>"; };
-		E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@2x.png"; sourceTree = "<group>"; };
-		E681D43724AFD72500447BC5 /* Our Mission@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission@2x.png"; sourceTree = "<group>"; };
-		E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation@3x.png"; sourceTree = "<group>"; };
-		E681D43924AFD72500447BC5 /* Tournament button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button.png"; sourceTree = "<group>"; };
-		E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student@2x.png"; sourceTree = "<group>"; };
-		E681D43B24AFD72500447BC5 /* First Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button.png"; sourceTree = "<group>"; };
-		E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button@2x.png"; sourceTree = "<group>"; };
-		E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button@3x.png"; sourceTree = "<group>"; };
-		E681D43E24AFD72500447BC5 /* Logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@3x.png"; sourceTree = "<group>"; };
-		E681D43F24AFD72500447BC5 /* Tournament Info Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label.png"; sourceTree = "<group>"; };
-		E681D44024AFD72500447BC5 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
-		E681D44124AFD72500447BC5 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
-		E681D44224AFD72500447BC5 /* First Menu Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button@2x.png"; sourceTree = "<group>"; };
-		E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button@3x.png"; sourceTree = "<group>"; };
-		E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@3x.png"; sourceTree = "<group>"; };
-		E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@3x.png"; sourceTree = "<group>"; };
-		E681D44624AFD72500447BC5 /* Events@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@3x.png"; sourceTree = "<group>"; };
-		E681D44724AFD72500447BC5 /* Sign Up a Judge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge.png"; sourceTree = "<group>"; };
-		E681D44824AFD72500447BC5 /* Sign up as a student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student.png"; sourceTree = "<group>"; };
-		E681D44924AFD72500447BC5 /* Information Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button@2x.png"; sourceTree = "<group>"; };
-		E681D44A24AFD72500447BC5 /* Information Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button@3x.png"; sourceTree = "<group>"; };
-		E681D44B24AFD72500447BC5 /* Second Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button.png"; sourceTree = "<group>"; };
-		E681D44C24AFD72500447BC5 /* Events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@2x.png"; sourceTree = "<group>"; };
-		E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@2x.png"; sourceTree = "<group>"; };
-		E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
 		E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionPageController.swift; sourceTree = "<group>"; };
-		E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational.png"; sourceTree = "<group>"; };
 		E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentScrollController.swift; sourceTree = "<group>"; };
-		E681D4CB24AFEB0200447BC5 /* Events@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@3x.png"; sourceTree = "<group>"; };
-		E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@3x.png"; sourceTree = "<group>"; };
-		E681D4D324AFF82700447BC5 /* Tabroom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tabroom@3x.png"; sourceTree = "<group>"; };
-		E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational Title@3x.png"; sourceTree = "<group>"; };
-		E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background for Tournaments@3x.png"; sourceTree = "<group>"; };
 		E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/Leland Speech and Debate App Assets/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E681D4E824B02EC500447BC5 /* Our Mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission.png"; sourceTree = "<group>"; };
+		E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Component 2 – 1@2x.png"; sourceTree = "<group>"; };
+		E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@2x.png"; sourceTree = "<group>"; };
+		E681D4EB24B02EC500447BC5 /* Tournament button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@3x.png"; sourceTree = "<group>"; };
+		E681D4EC24B02EC500447BC5 /* Component 2 – 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Component 2 – 1@3x.png"; sourceTree = "<group>"; };
+		E681D4ED24B02EC500447BC5 /* Drop Down Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu.png"; sourceTree = "<group>"; };
+		E681D4EE24B02EC500447BC5 /* Saint Francis Invitational Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational Title.png"; sourceTree = "<group>"; };
+		E681D4EF24B02EC500447BC5 /* #1 Team in the nation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation.png"; sourceTree = "<group>"; };
+		E681D4F024B02EC500447BC5 /* Sign up as a student@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student@3x.png"; sourceTree = "<group>"; };
+		E681D4F124B02EC500447BC5 /* Information Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button.png"; sourceTree = "<group>"; };
+		E681D4F224B02EC500447BC5 /* #1 Team in the nation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation@2x.png"; sourceTree = "<group>"; };
+		E681D4F324B02EC500447BC5 /* Our Mission@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission@3x.png"; sourceTree = "<group>"; };
+		E681D4F424B02EC500447BC5 /* Tournament Info Label@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@3x.png"; sourceTree = "<group>"; };
+		E681D4F524B02EC500447BC5 /* Events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Events.png; sourceTree = "<group>"; };
+		E681D4F624B02EC500447BC5 /* Tournament Info Label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@2x.png"; sourceTree = "<group>"; };
+		E681D4F724B02EC500447BC5 /* Our Mission@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission@2x.png"; sourceTree = "<group>"; };
+		E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation@3x.png"; sourceTree = "<group>"; };
+		E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E681D4FA24B02EC500447BC5 /* Background for Tournaments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background for Tournaments.png"; sourceTree = "<group>"; };
+		E681D4FB24B02EC500447BC5 /* Tournament button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button.png"; sourceTree = "<group>"; };
+		E681D4FC24B02EC500447BC5 /* Saint Francis Invitational.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational.png"; sourceTree = "<group>"; };
+		E681D4FD24B02EC500447BC5 /* Sign up as a student@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student@2x.png"; sourceTree = "<group>"; };
+		E681D4FE24B02EC500447BC5 /* First Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button.png"; sourceTree = "<group>"; };
+		E681D4FF24B02EC500447BC5 /* Back Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button@2x.png"; sourceTree = "<group>"; };
+		E681D50024B02EC500447BC5 /* Saint Francis Invitational Title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational Title@2x.png"; sourceTree = "<group>"; };
+		E681D50124B02EC500447BC5 /* Second Menu Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button@2x.png"; sourceTree = "<group>"; };
+		E681D50224B02EC500447BC5 /* Tabroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tabroom.png; sourceTree = "<group>"; };
+		E681D50324B02EC500447BC5 /* First Menu Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button@3x.png"; sourceTree = "<group>"; };
+		E681D50424B02EC500447BC5 /* Logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@3x.png"; sourceTree = "<group>"; };
+		E681D50524B02EC500447BC5 /* Tournament Info Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label.png"; sourceTree = "<group>"; };
+		E681D50624B02EC500447BC5 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		E681D50724B02EC500447BC5 /* Component 2 – 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Component 2 – 1.png"; sourceTree = "<group>"; };
+		E681D50824B02EC500447BC5 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
+		E681D50924B02EC500447BC5 /* First Menu Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button@2x.png"; sourceTree = "<group>"; };
+		E681D50A24B02EC500447BC5 /* Saint Francis Invitational Title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational Title@3x.png"; sourceTree = "<group>"; };
+		E681D50B24B02EC500447BC5 /* Second Menu Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button@3x.png"; sourceTree = "<group>"; };
+		E681D50C24B02EC500447BC5 /* Back Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button@3x.png"; sourceTree = "<group>"; };
+		E681D50D24B02EC500447BC5 /* Drop Down Meenu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@3x.png"; sourceTree = "<group>"; };
+		E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@3x.png"; sourceTree = "<group>"; };
+		E681D50F24B02EC500447BC5 /* Events@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@3x.png"; sourceTree = "<group>"; };
+		E681D51024B02EC500447BC5 /* Sign Up a Judge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge.png"; sourceTree = "<group>"; };
+		E681D51124B02EC500447BC5 /* Sign up as a student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student.png"; sourceTree = "<group>"; };
+		E681D51224B02EC500447BC5 /* Background for Tournaments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background for Tournaments@2x.png"; sourceTree = "<group>"; };
+		E681D51324B02EC500447BC5 /* Tabroom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tabroom@2x.png"; sourceTree = "<group>"; };
+		E681D51424B02EC500447BC5 /* Back Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button.png"; sourceTree = "<group>"; };
+		E681D51524B02EC500447BC5 /* Saint Francis Invitational@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational@2x.png"; sourceTree = "<group>"; };
+		E681D51624B02EC500447BC5 /* Information Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button@2x.png"; sourceTree = "<group>"; };
+		E681D51724B02EC500447BC5 /* Saint Francis Invitational@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational@3x.png"; sourceTree = "<group>"; };
+		E681D51824B02EC500447BC5 /* Information Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button@3x.png"; sourceTree = "<group>"; };
+		E681D51924B02EC500447BC5 /* Tabroom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tabroom@3x.png"; sourceTree = "<group>"; };
+		E681D51A24B02EC500447BC5 /* Background for Tournaments@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background for Tournaments@3x.png"; sourceTree = "<group>"; };
+		E681D51B24B02EC500447BC5 /* Second Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button.png"; sourceTree = "<group>"; };
+		E681D51C24B02EC500447BC5 /* Events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@2x.png"; sourceTree = "<group>"; };
+		E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@2x.png"; sourceTree = "<group>"; };
+		E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
 		E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leland Speech and Debate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -279,7 +335,6 @@
 				B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */,
 				E957D9BE0A29AC34D36E4BEA /* Pods-Leland Speech and Debate AppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -293,53 +348,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E681D42A24AFD72500447BC5 /* Leland Speech and Debate App Assets */ = {
+		E681D4E724B02EC500447BC5 /* Leland Speech and Debate App Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E681D42B24AFD72500447BC5 /* Our Mission.png */,
-				E681D42C24AFD72500447BC5 /* Tournament button@2x.png */,
-				E681D42D24AFD72500447BC5 /* Tournament button@3x.png */,
-				E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */,
-				E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */,
-				E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */,
-				E681D4D324AFF82700447BC5 /* Tabroom@3x.png */,
-				E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */,
-				E681D4CB24AFEB0200447BC5 /* Events@3x.png */,
-				E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */,
-				E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */,
-				E681D43124AFD72500447BC5 /* Information Button.png */,
-				E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */,
-				E681D43324AFD72500447BC5 /* Our Mission@3x.png */,
-				E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */,
-				E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */,
-				E681D43724AFD72500447BC5 /* Our Mission@2x.png */,
-				E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */,
-				E681D43924AFD72500447BC5 /* Tournament button.png */,
-				E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */,
-				E681D43B24AFD72500447BC5 /* First Menu Button.png */,
-				E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */,
-				E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */,
-				E681D43E24AFD72500447BC5 /* Logo@3x.png */,
-				E681D43F24AFD72500447BC5 /* Tournament Info Label.png */,
-				E681D44024AFD72500447BC5 /* Logo.png */,
-				E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */,
-				E681D44124AFD72500447BC5 /* Logo@2x.png */,
-				E681D44224AFD72500447BC5 /* First Menu Button@2x.png */,
-				E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */,
-				E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */,
-				E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */,
-				E681D44624AFD72500447BC5 /* Events@3x.png */,
-				E681D44724AFD72500447BC5 /* Sign Up a Judge.png */,
-				E681D44824AFD72500447BC5 /* Sign up as a student.png */,
-				E681D44924AFD72500447BC5 /* Information Button@2x.png */,
-				E681D44A24AFD72500447BC5 /* Information Button@3x.png */,
-				E681D44B24AFD72500447BC5 /* Second Menu Button.png */,
-				E681D44C24AFD72500447BC5 /* Events@2x.png */,
-				E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */,
-				E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */,
+				E681D4E824B02EC500447BC5 /* Our Mission.png */,
+				E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */,
+				E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */,
+				E681D4EB24B02EC500447BC5 /* Tournament button@3x.png */,
+				E681D4EC24B02EC500447BC5 /* Component 2 – 1@3x.png */,
+				E681D4ED24B02EC500447BC5 /* Drop Down Meenu.png */,
+				E681D4EE24B02EC500447BC5 /* Saint Francis Invitational Title.png */,
+				E681D4EF24B02EC500447BC5 /* #1 Team in the nation.png */,
+				E681D4F024B02EC500447BC5 /* Sign up as a student@3x.png */,
+				E681D4F124B02EC500447BC5 /* Information Button.png */,
+				E681D4F224B02EC500447BC5 /* #1 Team in the nation@2x.png */,
+				E681D4F324B02EC500447BC5 /* Our Mission@3x.png */,
+				E681D4F424B02EC500447BC5 /* Tournament Info Label@3x.png */,
+				E681D4F524B02EC500447BC5 /* Events.png */,
+				E681D4F624B02EC500447BC5 /* Tournament Info Label@2x.png */,
+				E681D4F724B02EC500447BC5 /* Our Mission@2x.png */,
+				E681D4F824B02EC500447BC5 /* #1 Team in the nation@3x.png */,
+				E681D4F924B02EC500447BC5 /* GoogleService-Info.plist */,
+				E681D4FA24B02EC500447BC5 /* Background for Tournaments.png */,
+				E681D4FB24B02EC500447BC5 /* Tournament button.png */,
+				E681D4FC24B02EC500447BC5 /* Saint Francis Invitational.png */,
+				E681D4FD24B02EC500447BC5 /* Sign up as a student@2x.png */,
+				E681D4FE24B02EC500447BC5 /* First Menu Button.png */,
+				E681D4FF24B02EC500447BC5 /* Back Button@2x.png */,
+				E681D50024B02EC500447BC5 /* Saint Francis Invitational Title@2x.png */,
+				E681D50124B02EC500447BC5 /* Second Menu Button@2x.png */,
+				E681D50224B02EC500447BC5 /* Tabroom.png */,
+				E681D50324B02EC500447BC5 /* First Menu Button@3x.png */,
+				E681D50424B02EC500447BC5 /* Logo@3x.png */,
+				E681D50524B02EC500447BC5 /* Tournament Info Label.png */,
+				E681D50624B02EC500447BC5 /* Logo.png */,
+				E681D50724B02EC500447BC5 /* Component 2 – 1.png */,
+				E681D50824B02EC500447BC5 /* Logo@2x.png */,
+				E681D50924B02EC500447BC5 /* First Menu Button@2x.png */,
+				E681D50A24B02EC500447BC5 /* Saint Francis Invitational Title@3x.png */,
+				E681D50B24B02EC500447BC5 /* Second Menu Button@3x.png */,
+				E681D50C24B02EC500447BC5 /* Back Button@3x.png */,
+				E681D50D24B02EC500447BC5 /* Drop Down Meenu@3x.png */,
+				E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */,
+				E681D50F24B02EC500447BC5 /* Events@3x.png */,
+				E681D51024B02EC500447BC5 /* Sign Up a Judge.png */,
+				E681D51124B02EC500447BC5 /* Sign up as a student.png */,
+				E681D51224B02EC500447BC5 /* Background for Tournaments@2x.png */,
+				E681D51324B02EC500447BC5 /* Tabroom@2x.png */,
+				E681D51424B02EC500447BC5 /* Back Button.png */,
+				E681D51524B02EC500447BC5 /* Saint Francis Invitational@2x.png */,
+				E681D51624B02EC500447BC5 /* Information Button@2x.png */,
+				E681D51724B02EC500447BC5 /* Saint Francis Invitational@3x.png */,
+				E681D51824B02EC500447BC5 /* Information Button@3x.png */,
+				E681D51924B02EC500447BC5 /* Tabroom@3x.png */,
+				E681D51A24B02EC500447BC5 /* Background for Tournaments@3x.png */,
+				E681D51B24B02EC500447BC5 /* Second Menu Button.png */,
+				E681D51C24B02EC500447BC5 /* Events@2x.png */,
+				E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */,
+				E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */,
 			);
 			name = "Leland Speech and Debate App Assets";
-			path = "../../../Desktop/Leland Speech and Debate App Assets";
+			path = "../Leland Speech and Debate App Assets";
 			sourceTree = "<group>";
 		};
 		E6D10E1724ADC8CF005422E1 = {
@@ -350,7 +419,7 @@
 				E6D10E3C24ADC8D2005422E1 /* Leland Speech and Debate AppTests */,
 				E6D10E4724ADC8D2005422E1 /* Leland Speech and Debate AppUITests */,
 				E6D10E2124ADC8CF005422E1 /* Products */,
-				E681D42A24AFD72500447BC5 /* Leland Speech and Debate App Assets */,
+				E681D4E724B02EC500447BC5 /* Leland Speech and Debate App Assets */,
 				10F8AB851418FC9146EADFFC /* Pods */,
 				1A8AB5572C80A6F8C34A0F1A /* Frameworks */,
 			);
@@ -509,51 +578,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E681D47624AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */,
-				E681D47F24AFD72500447BC5 /* First Menu Button.png in Resources */,
+				E681D55524B02EC500447BC5 /* Background for Tournaments.png in Resources */,
+				E681D59724B02EC500447BC5 /* Sign Up a Judge.png in Resources */,
+				E681D58E24B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D53D24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */,
+				E681D55B24B02EC500447BC5 /* Saint Francis Invitational.png in Resources */,
+				E681D5C124B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */,
+				E681D59A24B02EC500447BC5 /* Sign up as a student.png in Resources */,
+				E681D5B524B02EC500447BC5 /* Background for Tournaments@3x.png in Resources */,
+				E681D53124B02EC500447BC5 /* Saint Francis Invitational Title.png in Resources */,
+				E681D57324B02EC500447BC5 /* Logo@3x.png in Resources */,
+				E681D56D24B02EC500447BC5 /* Tabroom.png in Resources */,
+				E681D54324B02EC500447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D57C24B02EC500447BC5 /* Component 2 – 1.png in Resources */,
+				E681D5A624B02EC500447BC5 /* Saint Francis Invitational@2x.png in Resources */,
+				E681D52524B02EC500447BC5 /* Tournament button@2x.png in Resources */,
+				E681D52E24B02EC500447BC5 /* Drop Down Meenu.png in Resources */,
+				E681D56A24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */,
 				E681D4E424B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
-				E681D4AF24AFD72500447BC5 /* Second Menu Button.png in Resources */,
-				E681D45B24AFD72500447BC5 /* #1 Team in the nation.png in Resources */,
-				E681D4D824AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
-				E681D49124AFD72500447BC5 /* Logo@2x.png in Resources */,
-				E681D4DC24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */,
-				E681D48824AFD72500447BC5 /* Logo@3x.png in Resources */,
-				E681D45824AFD72500447BC5 /* Drop Down Meenu.png in Resources */,
+				E681D58824B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
+				E681D54F24B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */,
+				E681D53424B02EC500447BC5 /* #1 Team in the nation.png in Resources */,
+				E681D51F24B02EC500447BC5 /* Our Mission.png in Resources */,
+				E681D56124B02EC500447BC5 /* First Menu Button.png in Resources */,
 				E6D10E3324ADC8D2005422E1 /* LaunchScreen.storyboard in Resources */,
-				E681D4D424AFF82700447BC5 /* Tabroom@3x.png in Resources */,
-				E681D4B524AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */,
-				E681D46424AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */,
-				E681D47C24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */,
-				E681D48524AFD72500447BC5 /* First Menu Button@3x.png in Resources */,
-				E681D47024AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */,
-				E681D46124AFD72500447BC5 /* Information Button.png in Resources */,
-				E681D4A324AFD72500447BC5 /* Sign Up a Judge.png in Resources */,
-				E681D4B224AFD72500447BC5 /* Events@2x.png in Resources */,
-				E681D4AC24AFD72500447BC5 /* Information Button@3x.png in Resources */,
+				E681D57024B02EC500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D59424B02EC500447BC5 /* Events@3x.png in Resources */,
+				E681D59D24B02EC500447BC5 /* Background for Tournaments@2x.png in Resources */,
+				E681D58224B02EC500447BC5 /* First Menu Button@2x.png in Resources */,
+				E681D54024B02EC500447BC5 /* Our Mission@3x.png in Resources */,
 				E6D10E3024ADC8D2005422E1 /* Assets.xcassets in Resources */,
-				E681D47324AFD72500447BC5 /* Our Mission@2x.png in Resources */,
-				E681D45E24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */,
-				E681D44F24AFD72500447BC5 /* Our Mission.png in Resources */,
-				E681D46724AFD72500447BC5 /* Our Mission@3x.png in Resources */,
-				E681D46A24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */,
-				E681D4A024AFD72500447BC5 /* Events@3x.png in Resources */,
-				E681D4CC24AFEB0200447BC5 /* Events@3x.png in Resources */,
-				E681D49424AFD72500447BC5 /* First Menu Button@2x.png in Resources */,
-				E681D4B824AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */,
+				E681D52B24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
+				E681D54624B02EC500447BC5 /* Events.png in Resources */,
+				E681D57624B02EC500447BC5 /* Tournament Info Label.png in Resources */,
+				E681D57924B02EC500447BC5 /* Logo.png in Resources */,
+				E681D5B224B02EC500447BC5 /* Tabroom@3x.png in Resources */,
+				E681D5A924B02EC500447BC5 /* Information Button@2x.png in Resources */,
+				E681D5A024B02EC500447BC5 /* Tabroom@2x.png in Resources */,
+				E681D5AC24B02EC500447BC5 /* Saint Francis Invitational@3x.png in Resources */,
+				E681D52224B02EC500447BC5 /* Component 2 – 1@2x.png in Resources */,
+				E681D54924B02EC500447BC5 /* Tournament Info Label@2x.png in Resources */,
+				E681D55824B02EC500447BC5 /* Tournament button.png in Resources */,
+				E681D54C24B02EC500447BC5 /* Our Mission@2x.png in Resources */,
+				E681D53724B02EC500447BC5 /* Sign up as a student@3x.png in Resources */,
 				E6D10E2B24ADC8CF005422E1 /* Main.storyboard in Resources */,
-				E681D45224AFD72500447BC5 /* Tournament button@2x.png in Resources */,
-				E681D45524AFD72500447BC5 /* Tournament button@3x.png in Resources */,
-				E681D48B24AFD72500447BC5 /* Tournament Info Label.png in Resources */,
-				E681D49D24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */,
-				E681D4D024AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */,
-				E681D4C424AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */,
-				E681D49724AFD72500447BC5 /* Second Menu Button@3x.png in Resources */,
-				E681D49A24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */,
-				E681D48E24AFD72500447BC5 /* Logo.png in Resources */,
-				E681D48224AFD72500447BC5 /* Second Menu Button@2x.png in Resources */,
-				E681D4A624AFD72500447BC5 /* Sign up as a student.png in Resources */,
-				E681D4A924AFD72500447BC5 /* Information Button@2x.png in Resources */,
-				E681D47924AFD72500447BC5 /* Tournament button.png in Resources */,
+				E681D58B24B02EC500447BC5 /* Back Button@3x.png in Resources */,
+				E681D5AF24B02EC500447BC5 /* Information Button@3x.png in Resources */,
+				E681D55224B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
+				E681D5B824B02EC500447BC5 /* Second Menu Button.png in Resources */,
+				E681D59124B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E681D5A324B02EC500447BC5 /* Back Button.png in Resources */,
+				E681D56424B02EC500447BC5 /* Back Button@2x.png in Resources */,
+				E681D5BE24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
+				E681D56724B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */,
+				E681D58524B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
+				E681D5BB24B02EC500447BC5 /* Events@2x.png in Resources */,
+				E681D52824B02EC500447BC5 /* Tournament button@3x.png in Resources */,
+				E681D55E24B02EC500447BC5 /* Sign up as a student@2x.png in Resources */,
+				E681D53A24B02EC500447BC5 /* Information Button.png in Resources */,
+				E681D57F24B02EC500447BC5 /* Logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,48 +644,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E681D48024AFD72500447BC5 /* First Menu Button.png in Resources */,
-				E681D45C24AFD72500447BC5 /* #1 Team in the nation.png in Resources */,
-				E681D4B024AFD72500447BC5 /* Second Menu Button.png in Resources */,
-				E681D49224AFD72500447BC5 /* Logo@2x.png in Resources */,
-				E681D45F24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */,
-				E681D45324AFD72500447BC5 /* Tournament button@2x.png in Resources */,
-				E681D49B24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */,
-				E681D49E24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */,
-				E681D48F24AFD72500447BC5 /* Logo.png in Resources */,
-				E681D45924AFD72500447BC5 /* Drop Down Meenu.png in Resources */,
-				E681D4B324AFD72500447BC5 /* Events@2x.png in Resources */,
-				E681D45024AFD72500447BC5 /* Our Mission.png in Resources */,
-				E681D48324AFD72500447BC5 /* Second Menu Button@2x.png in Resources */,
-				E681D4A124AFD72500447BC5 /* Events@3x.png in Resources */,
-				E681D47724AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */,
-				E681D48C24AFD72500447BC5 /* Tournament Info Label.png in Resources */,
-				E681D4B924AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */,
-				E681D4A424AFD72500447BC5 /* Sign Up a Judge.png in Resources */,
-				E681D49824AFD72500447BC5 /* Second Menu Button@3x.png in Resources */,
-				E681D46524AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */,
-				E681D4DD24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */,
-				E681D45624AFD72500447BC5 /* Tournament button@3x.png in Resources */,
-				E681D4A724AFD72500447BC5 /* Sign up as a student.png in Resources */,
-				E681D4CD24AFEB0200447BC5 /* Events@3x.png in Resources */,
-				E681D46224AFD72500447BC5 /* Information Button.png in Resources */,
-				E681D47D24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */,
-				E681D46824AFD72500447BC5 /* Our Mission@3x.png in Resources */,
-				E681D48924AFD72500447BC5 /* Logo@3x.png in Resources */,
-				E681D47A24AFD72500447BC5 /* Tournament button.png in Resources */,
-				E681D4B624AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */,
-				E681D4AD24AFD72500447BC5 /* Information Button@3x.png in Resources */,
-				E681D4D924AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
-				E681D47124AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */,
-				E681D4C524AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */,
-				E681D46B24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */,
-				E681D4D124AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */,
-				E681D47424AFD72500447BC5 /* Our Mission@2x.png in Resources */,
-				E681D4D524AFF82700447BC5 /* Tabroom@3x.png in Resources */,
-				E681D49524AFD72500447BC5 /* First Menu Button@2x.png in Resources */,
-				E681D4AA24AFD72500447BC5 /* Information Button@2x.png in Resources */,
-				E681D48624AFD72500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D53224B02EC500447BC5 /* Saint Francis Invitational Title.png in Resources */,
+				E681D58024B02EC500447BC5 /* Logo@2x.png in Resources */,
+				E681D5B624B02EC500447BC5 /* Background for Tournaments@3x.png in Resources */,
+				E681D56524B02EC500447BC5 /* Back Button@2x.png in Resources */,
+				E681D52F24B02EC500447BC5 /* Drop Down Meenu.png in Resources */,
+				E681D5A124B02EC500447BC5 /* Tabroom@2x.png in Resources */,
+				E681D54A24B02EC500447BC5 /* Tournament Info Label@2x.png in Resources */,
+				E681D57424B02EC500447BC5 /* Logo@3x.png in Resources */,
+				E681D52024B02EC500447BC5 /* Our Mission.png in Resources */,
+				E681D5AA24B02EC500447BC5 /* Information Button@2x.png in Resources */,
+				E681D59E24B02EC500447BC5 /* Background for Tournaments@2x.png in Resources */,
+				E681D55C24B02EC500447BC5 /* Saint Francis Invitational.png in Resources */,
+				E681D54724B02EC500447BC5 /* Events.png in Resources */,
+				E681D58324B02EC500447BC5 /* First Menu Button@2x.png in Resources */,
+				E681D56B24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */,
+				E681D54424B02EC500447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D55024B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */,
+				E681D57124B02EC500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D57A24B02EC500447BC5 /* Logo.png in Resources */,
+				E681D56E24B02EC500447BC5 /* Tabroom.png in Resources */,
+				E681D59824B02EC500447BC5 /* Sign Up a Judge.png in Resources */,
+				E681D54D24B02EC500447BC5 /* Our Mission@2x.png in Resources */,
+				E681D52324B02EC500447BC5 /* Component 2 – 1@2x.png in Resources */,
+				E681D53B24B02EC500447BC5 /* Information Button.png in Resources */,
+				E681D5B024B02EC500447BC5 /* Information Button@3x.png in Resources */,
+				E681D5C224B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */,
+				E681D52624B02EC500447BC5 /* Tournament button@2x.png in Resources */,
+				E681D55924B02EC500447BC5 /* Tournament button.png in Resources */,
+				E681D55324B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
+				E681D5B924B02EC500447BC5 /* Second Menu Button.png in Resources */,
+				E681D58624B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
+				E681D59B24B02EC500447BC5 /* Sign up as a student.png in Resources */,
+				E681D58C24B02EC500447BC5 /* Back Button@3x.png in Resources */,
 				E681D4E524B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
+				E681D52924B02EC500447BC5 /* Tournament button@3x.png in Resources */,
+				E681D58924B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
+				E681D57D24B02EC500447BC5 /* Component 2 – 1.png in Resources */,
+				E681D5A724B02EC500447BC5 /* Saint Francis Invitational@2x.png in Resources */,
+				E681D53524B02EC500447BC5 /* #1 Team in the nation.png in Resources */,
+				E681D56224B02EC500447BC5 /* First Menu Button.png in Resources */,
+				E681D55F24B02EC500447BC5 /* Sign up as a student@2x.png in Resources */,
+				E681D58F24B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D53E24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */,
+				E681D5A424B02EC500447BC5 /* Back Button.png in Resources */,
+				E681D55624B02EC500447BC5 /* Background for Tournaments.png in Resources */,
+				E681D59224B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E681D52C24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
+				E681D59524B02EC500447BC5 /* Events@3x.png in Resources */,
+				E681D5BF24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
+				E681D53824B02EC500447BC5 /* Sign up as a student@3x.png in Resources */,
+				E681D54124B02EC500447BC5 /* Our Mission@3x.png in Resources */,
+				E681D5BC24B02EC500447BC5 /* Events@2x.png in Resources */,
+				E681D5B324B02EC500447BC5 /* Tabroom@3x.png in Resources */,
+				E681D56824B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */,
+				E681D57724B02EC500447BC5 /* Tournament Info Label.png in Resources */,
+				E681D5AD24B02EC500447BC5 /* Saint Francis Invitational@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,48 +707,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E681D48124AFD72500447BC5 /* First Menu Button.png in Resources */,
-				E681D45D24AFD72500447BC5 /* #1 Team in the nation.png in Resources */,
-				E681D4B124AFD72500447BC5 /* Second Menu Button.png in Resources */,
-				E681D49324AFD72500447BC5 /* Logo@2x.png in Resources */,
-				E681D46024AFD72500447BC5 /* Sign up as a student@3x.png in Resources */,
-				E681D45424AFD72500447BC5 /* Tournament button@2x.png in Resources */,
-				E681D49C24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */,
-				E681D49F24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */,
-				E681D49024AFD72500447BC5 /* Logo.png in Resources */,
-				E681D45A24AFD72500447BC5 /* Drop Down Meenu.png in Resources */,
-				E681D4B424AFD72500447BC5 /* Events@2x.png in Resources */,
-				E681D45124AFD72500447BC5 /* Our Mission.png in Resources */,
-				E681D48424AFD72500447BC5 /* Second Menu Button@2x.png in Resources */,
-				E681D4A224AFD72500447BC5 /* Events@3x.png in Resources */,
-				E681D47824AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */,
-				E681D48D24AFD72500447BC5 /* Tournament Info Label.png in Resources */,
-				E681D4BA24AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */,
-				E681D4A524AFD72500447BC5 /* Sign Up a Judge.png in Resources */,
-				E681D49924AFD72500447BC5 /* Second Menu Button@3x.png in Resources */,
-				E681D46624AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */,
-				E681D4DE24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */,
-				E681D45724AFD72500447BC5 /* Tournament button@3x.png in Resources */,
-				E681D4A824AFD72500447BC5 /* Sign up as a student.png in Resources */,
-				E681D4CE24AFEB0200447BC5 /* Events@3x.png in Resources */,
-				E681D46324AFD72500447BC5 /* Information Button.png in Resources */,
-				E681D47E24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */,
-				E681D46924AFD72500447BC5 /* Our Mission@3x.png in Resources */,
-				E681D48A24AFD72500447BC5 /* Logo@3x.png in Resources */,
-				E681D47B24AFD72500447BC5 /* Tournament button.png in Resources */,
-				E681D4B724AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */,
-				E681D4AE24AFD72500447BC5 /* Information Button@3x.png in Resources */,
-				E681D4DA24AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
-				E681D47224AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */,
-				E681D4C624AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */,
-				E681D46C24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */,
-				E681D4D224AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */,
-				E681D47524AFD72500447BC5 /* Our Mission@2x.png in Resources */,
-				E681D4D624AFF82700447BC5 /* Tabroom@3x.png in Resources */,
-				E681D49624AFD72500447BC5 /* First Menu Button@2x.png in Resources */,
-				E681D4AB24AFD72500447BC5 /* Information Button@2x.png in Resources */,
-				E681D48724AFD72500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D53324B02EC500447BC5 /* Saint Francis Invitational Title.png in Resources */,
+				E681D58124B02EC500447BC5 /* Logo@2x.png in Resources */,
+				E681D5B724B02EC500447BC5 /* Background for Tournaments@3x.png in Resources */,
+				E681D56624B02EC500447BC5 /* Back Button@2x.png in Resources */,
+				E681D53024B02EC500447BC5 /* Drop Down Meenu.png in Resources */,
+				E681D5A224B02EC500447BC5 /* Tabroom@2x.png in Resources */,
+				E681D54B24B02EC500447BC5 /* Tournament Info Label@2x.png in Resources */,
+				E681D57524B02EC500447BC5 /* Logo@3x.png in Resources */,
+				E681D52124B02EC500447BC5 /* Our Mission.png in Resources */,
+				E681D5AB24B02EC500447BC5 /* Information Button@2x.png in Resources */,
+				E681D59F24B02EC500447BC5 /* Background for Tournaments@2x.png in Resources */,
+				E681D55D24B02EC500447BC5 /* Saint Francis Invitational.png in Resources */,
+				E681D54824B02EC500447BC5 /* Events.png in Resources */,
+				E681D58424B02EC500447BC5 /* First Menu Button@2x.png in Resources */,
+				E681D56C24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */,
+				E681D54524B02EC500447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D55124B02EC500447BC5 /* #1 Team in the nation@3x.png in Resources */,
+				E681D57224B02EC500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D57B24B02EC500447BC5 /* Logo.png in Resources */,
+				E681D56F24B02EC500447BC5 /* Tabroom.png in Resources */,
+				E681D59924B02EC500447BC5 /* Sign Up a Judge.png in Resources */,
+				E681D54E24B02EC500447BC5 /* Our Mission@2x.png in Resources */,
+				E681D52424B02EC500447BC5 /* Component 2 – 1@2x.png in Resources */,
+				E681D53C24B02EC500447BC5 /* Information Button.png in Resources */,
+				E681D5B124B02EC500447BC5 /* Information Button@3x.png in Resources */,
+				E681D5C324B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */,
+				E681D52724B02EC500447BC5 /* Tournament button@2x.png in Resources */,
+				E681D55A24B02EC500447BC5 /* Tournament button.png in Resources */,
+				E681D55424B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
+				E681D5BA24B02EC500447BC5 /* Second Menu Button.png in Resources */,
+				E681D58724B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
+				E681D59C24B02EC500447BC5 /* Sign up as a student.png in Resources */,
+				E681D58D24B02EC500447BC5 /* Back Button@3x.png in Resources */,
 				E681D4E624B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
+				E681D52A24B02EC500447BC5 /* Tournament button@3x.png in Resources */,
+				E681D58A24B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
+				E681D57E24B02EC500447BC5 /* Component 2 – 1.png in Resources */,
+				E681D5A824B02EC500447BC5 /* Saint Francis Invitational@2x.png in Resources */,
+				E681D53624B02EC500447BC5 /* #1 Team in the nation.png in Resources */,
+				E681D56324B02EC500447BC5 /* First Menu Button.png in Resources */,
+				E681D56024B02EC500447BC5 /* Sign up as a student@2x.png in Resources */,
+				E681D59024B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D53F24B02EC500447BC5 /* #1 Team in the nation@2x.png in Resources */,
+				E681D5A524B02EC500447BC5 /* Back Button.png in Resources */,
+				E681D55724B02EC500447BC5 /* Background for Tournaments.png in Resources */,
+				E681D59324B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E681D52D24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
+				E681D59624B02EC500447BC5 /* Events@3x.png in Resources */,
+				E681D5C024B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
+				E681D53924B02EC500447BC5 /* Sign up as a student@3x.png in Resources */,
+				E681D54224B02EC500447BC5 /* Our Mission@3x.png in Resources */,
+				E681D5BD24B02EC500447BC5 /* Events@2x.png in Resources */,
+				E681D5B424B02EC500447BC5 /* Tabroom@3x.png in Resources */,
+				E681D56924B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */,
+				E681D57824B02EC500447BC5 /* Tournament Info Label.png in Resources */,
+				E681D5AE24B02EC500447BC5 /* Saint Francis Invitational@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
