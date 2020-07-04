@@ -1,0 +1,6 @@
+framework module Pods_Leland_Speech_and_Debate_AppUITests {
+  umbrella header "Pods-Leland Speech and Debate AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

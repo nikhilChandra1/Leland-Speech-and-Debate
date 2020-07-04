@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1FR-r7-qbs">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="#1 Team in the nation.png" translatesAutoresizingMaskIntoConstraints="NO" id="sLw-Tt-gR4">
+                                <rect key="frame" x="0.0" y="409" width="375" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-6R-EjZ">
+                                <rect key="frame" x="-99" y="101" width="572" height="364"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTW-o6-XI5">
+                                <rect key="frame" x="16" y="58" width="52" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="First Menu Button.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.096557952463626862" green="0.14693740010261536" blue="0.22746101021766663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="129.31034482758622"/>
+        </scene>
+        <!--Tournament Scroll Controller-->
+        <scene sceneID="FAP-sc-dYL">
+            <objects>
+                <viewController id="VUm-3R-t57" customClass="TournamentScrollController" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WCz-eG-iTe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tournament button.png" translatesAutoresizingMaskIntoConstraints="NO" id="pKc-4p-kQs">
+                                <rect key="frame" x="9" y="132" width="356" height="306.33333333333331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tournament Info Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="YZA-nK-jOQ">
+                                <rect key="frame" x="60" y="80" width="264" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Second Menu Button.png" translatesAutoresizingMaskIntoConstraints="NO" id="TSI-CK-I3O">
+                                <rect key="frame" x="19" y="34" width="40" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Saint Francis Invitational.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lub-qJ-Gw4">
+                                <rect key="frame" x="67" y="147" width="240" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izW-Fy-Mmr">
+                                <rect key="frame" x="38" y="239" width="299" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Sign up as a student.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6N7-lj-xBE">
+                                <rect key="frame" x="38" y="292" width="299" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Sign Up a Judge.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mg3-6E-Wwj">
+                                <rect key="frame" x="38" y="344" width="299" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Information Button.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.085450164973735809" green="0.1466735303401947" blue="0.23530501127243042" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="VOq-iH-eYz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hrC-FQ-gBx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1168.8" y="315.51724137931035"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="d0W-43-juX">
+            <objects>
+                <viewController id="bZy-1v-2bk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1fn-Hq-wby">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background for Tournaments.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ggf-fm-4Hl">
+                                <rect key="frame" x="16" y="44" width="343" height="734"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.070780657231807709" green="0.14639854431152344" blue="0.24314898252487183" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="aMg-pi-pnX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h3S-tX-56I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1994.4000000000001" y="610.34482758620697"/>
+        </scene>
+        <!--Our Mission Page Controller-->
+        <scene sceneID="jUD-yv-AfN">
+            <objects>
+                <viewController id="O0g-gV-VgL" customClass="OurMissionPageController" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fay-Lr-4X4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Our Mission.png" translatesAutoresizingMaskIntoConstraints="NO" id="cQe-s5-4xk">
+                                <rect key="frame" x="-1232" y="33" width="1609" height="885"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9A-9O-QRi">
+                                <rect key="frame" x="48" y="53" width="37" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Drop Down Meenu.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.085450164973735809" green="0.1466735303401947" blue="0.23530501127243042" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="VdN-AR-Uaf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfo-sc-E0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1170" y="-355"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cd2-xi-Uqk">
+            <objects>
+                <viewController id="1FR-r7-qbs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xlg-7z-H6f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yK-gN-yo0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="j0V-2k-NHk">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="5972"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sRw-me-sHE">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="au6-Gu-OQ0">
+                                                        <rect key="frame" x="17" y="48" width="44" height="43"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" image="Drop Down Meenu.png"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.088267318904399872" green="0.13159579038619995" blue="0.20000863075256348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Events.png" translatesAutoresizingMaskIntoConstraints="NO" id="NNS-7F-Y3e">
+                                                <rect key="frame" x="0.0" y="99" width="375" height="5873"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5972" id="VcX-Wo-4pP"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="j0V-2k-NHk" firstAttribute="trailing" secondItem="X9T-fK-VEy" secondAttribute="trailing" id="6CT-2U-zIq"/>
+                                    <constraint firstItem="j0V-2k-NHk" firstAttribute="bottom" secondItem="X9T-fK-VEy" secondAttribute="bottom" id="GjB-mg-hsg"/>
+                                    <constraint firstItem="j0V-2k-NHk" firstAttribute="leading" secondItem="X9T-fK-VEy" secondAttribute="leading" id="Tsb-1t-v4g"/>
+                                    <constraint firstItem="j0V-2k-NHk" firstAttribute="width" secondItem="BFc-7d-FMb" secondAttribute="width" id="nJf-Ww-agN"/>
+                                    <constraint firstItem="j0V-2k-NHk" firstAttribute="top" secondItem="X9T-fK-VEy" secondAttribute="top" id="yee-pR-HVI"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="X9T-fK-VEy"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="BFc-7d-FMb"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6yK-gN-yo0" firstAttribute="trailing" secondItem="EE2-FB-pKt" secondAttribute="trailing" id="2iC-xy-cWT"/>
+                            <constraint firstItem="6yK-gN-yo0" firstAttribute="top" secondItem="xlg-7z-H6f" secondAttribute="top" id="3ff-gs-oKY"/>
+                            <constraint firstAttribute="bottom" secondItem="6yK-gN-yo0" secondAttribute="bottom" id="Qcb-bg-EWW"/>
+                            <constraint firstItem="6yK-gN-yo0" firstAttribute="leading" secondItem="EE2-FB-pKt" secondAttribute="leading" id="t39-gV-4JC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EE2-FB-pKt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cbb-X4-orD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2061.5999999999999" y="-90.14778325123153"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="#1 Team in the nation.png" width="192.33332824707031" height="41.333332061767578"/>
+        <image name="Background for Tournaments.png" width="178.66667175292969" height="395.66665649414062"/>
+        <image name="Drop Down Meenu.png" width="17" height="17"/>
+        <image name="Events.png" width="125" height="1957.6666259765625"/>
+        <image name="First Menu Button.png" width="26.666666030883789" height="26.666666030883789"/>
+        <image name="Information Button.png" width="153" height="27"/>
+        <image name="Logo.png" width="163.66667175292969" height="181.66667175292969"/>
+        <image name="Our Mission.png" width="543.66668701171875" height="304.66665649414062"/>
+        <image name="Saint Francis Invitational.png" width="220" height="86"/>
+        <image name="Second Menu Button.png" width="22.666666030883789" height="22.666666030883789"/>
+        <image name="Sign Up a Judge.png" width="102" height="18"/>
+        <image name="Sign up as a student.png" width="153" height="27"/>
+        <image name="Tournament Info Label.png" width="133" height="16.666666030883789"/>
+        <image name="Tournament button.png" width="187.33332824707031" height="162.33332824707031"/>
+    </resources>
+</document>

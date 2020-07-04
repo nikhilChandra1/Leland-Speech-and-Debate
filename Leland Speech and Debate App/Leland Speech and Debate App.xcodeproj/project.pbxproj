@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C016867CDB7A183FCBE637F /* Pods_Leland_Speech_and_Debate_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BE5E763E14BFA7AD8B168D /* Pods_Leland_Speech_and_Debate_App.framework */; };
+		38A9D7F076E6128BCC9EF98B /* Pods_Leland_Speech_and_Debate_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */; };
+		49B010BA52F211678846D5CE /* Pods_Leland_Speech_and_Debate_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1386A76BC8A00F54925A0B /* Pods_Leland_Speech_and_Debate_AppTests.framework */; };
+		E681D44F24AFD72500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42B24AFD72500447BC5 /* Our Mission.png */; };
+		E681D45024AFD72500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42B24AFD72500447BC5 /* Our Mission.png */; };
+		E681D45124AFD72500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42B24AFD72500447BC5 /* Our Mission.png */; };
+		E681D45224AFD72500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42C24AFD72500447BC5 /* Tournament button@2x.png */; };
+		E681D45324AFD72500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42C24AFD72500447BC5 /* Tournament button@2x.png */; };
+		E681D45424AFD72500447BC5 /* Tournament button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42C24AFD72500447BC5 /* Tournament button@2x.png */; };
+		E681D45524AFD72500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42D24AFD72500447BC5 /* Tournament button@3x.png */; };
+		E681D45624AFD72500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42D24AFD72500447BC5 /* Tournament button@3x.png */; };
+		E681D45724AFD72500447BC5 /* Tournament button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42D24AFD72500447BC5 /* Tournament button@3x.png */; };
+		E681D45824AFD72500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */; };
+		E681D45924AFD72500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */; };
+		E681D45A24AFD72500447BC5 /* Drop Down Meenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */; };
+		E681D45B24AFD72500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */; };
+		E681D45C24AFD72500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */; };
+		E681D45D24AFD72500447BC5 /* #1 Team in the nation.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */; };
+		E681D45E24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */; };
+		E681D45F24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */; };
+		E681D46024AFD72500447BC5 /* Sign up as a student@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */; };
+		E681D46124AFD72500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43124AFD72500447BC5 /* Information Button.png */; };
+		E681D46224AFD72500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43124AFD72500447BC5 /* Information Button.png */; };
+		E681D46324AFD72500447BC5 /* Information Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43124AFD72500447BC5 /* Information Button.png */; };
+		E681D46424AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */; };
+		E681D46524AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */; };
+		E681D46624AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */; };
+		E681D46724AFD72500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43324AFD72500447BC5 /* Our Mission@3x.png */; };
+		E681D46824AFD72500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43324AFD72500447BC5 /* Our Mission@3x.png */; };
+		E681D46924AFD72500447BC5 /* Our Mission@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43324AFD72500447BC5 /* Our Mission@3x.png */; };
+		E681D46A24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */; };
+		E681D46B24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */; };
+		E681D46C24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */; };
+		E681D47024AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */; };
+		E681D47124AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */; };
+		E681D47224AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */; };
+		E681D47324AFD72500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43724AFD72500447BC5 /* Our Mission@2x.png */; };
+		E681D47424AFD72500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43724AFD72500447BC5 /* Our Mission@2x.png */; };
+		E681D47524AFD72500447BC5 /* Our Mission@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43724AFD72500447BC5 /* Our Mission@2x.png */; };
+		E681D47624AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */; };
+		E681D47724AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */; };
+		E681D47824AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */; };
+		E681D47924AFD72500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43924AFD72500447BC5 /* Tournament button.png */; };
+		E681D47A24AFD72500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43924AFD72500447BC5 /* Tournament button.png */; };
+		E681D47B24AFD72500447BC5 /* Tournament button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43924AFD72500447BC5 /* Tournament button.png */; };
+		E681D47C24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */; };
+		E681D47D24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */; };
+		E681D47E24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */; };
+		E681D47F24AFD72500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43B24AFD72500447BC5 /* First Menu Button.png */; };
+		E681D48024AFD72500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43B24AFD72500447BC5 /* First Menu Button.png */; };
+		E681D48124AFD72500447BC5 /* First Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43B24AFD72500447BC5 /* First Menu Button.png */; };
+		E681D48224AFD72500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */; };
+		E681D48324AFD72500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */; };
+		E681D48424AFD72500447BC5 /* Second Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */; };
+		E681D48524AFD72500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */; };
+		E681D48624AFD72500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */; };
+		E681D48724AFD72500447BC5 /* First Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */; };
+		E681D48824AFD72500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43E24AFD72500447BC5 /* Logo@3x.png */; };
+		E681D48924AFD72500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43E24AFD72500447BC5 /* Logo@3x.png */; };
+		E681D48A24AFD72500447BC5 /* Logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43E24AFD72500447BC5 /* Logo@3x.png */; };
+		E681D48B24AFD72500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43F24AFD72500447BC5 /* Tournament Info Label.png */; };
+		E681D48C24AFD72500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43F24AFD72500447BC5 /* Tournament Info Label.png */; };
+		E681D48D24AFD72500447BC5 /* Tournament Info Label.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D43F24AFD72500447BC5 /* Tournament Info Label.png */; };
+		E681D48E24AFD72500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44024AFD72500447BC5 /* Logo.png */; };
+		E681D48F24AFD72500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44024AFD72500447BC5 /* Logo.png */; };
+		E681D49024AFD72500447BC5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44024AFD72500447BC5 /* Logo.png */; };
+		E681D49124AFD72500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44124AFD72500447BC5 /* Logo@2x.png */; };
+		E681D49224AFD72500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44124AFD72500447BC5 /* Logo@2x.png */; };
+		E681D49324AFD72500447BC5 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44124AFD72500447BC5 /* Logo@2x.png */; };
+		E681D49424AFD72500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44224AFD72500447BC5 /* First Menu Button@2x.png */; };
+		E681D49524AFD72500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44224AFD72500447BC5 /* First Menu Button@2x.png */; };
+		E681D49624AFD72500447BC5 /* First Menu Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44224AFD72500447BC5 /* First Menu Button@2x.png */; };
+		E681D49724AFD72500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */; };
+		E681D49824AFD72500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */; };
+		E681D49924AFD72500447BC5 /* Second Menu Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */; };
+		E681D49A24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */; };
+		E681D49B24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */; };
+		E681D49C24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */; };
+		E681D49D24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */; };
+		E681D49E24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */; };
+		E681D49F24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */; };
+		E681D4A024AFD72500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44624AFD72500447BC5 /* Events@3x.png */; };
+		E681D4A124AFD72500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44624AFD72500447BC5 /* Events@3x.png */; };
+		E681D4A224AFD72500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44624AFD72500447BC5 /* Events@3x.png */; };
+		E681D4A324AFD72500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44724AFD72500447BC5 /* Sign Up a Judge.png */; };
+		E681D4A424AFD72500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44724AFD72500447BC5 /* Sign Up a Judge.png */; };
+		E681D4A524AFD72500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44724AFD72500447BC5 /* Sign Up a Judge.png */; };
+		E681D4A624AFD72500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44824AFD72500447BC5 /* Sign up as a student.png */; };
+		E681D4A724AFD72500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44824AFD72500447BC5 /* Sign up as a student.png */; };
+		E681D4A824AFD72500447BC5 /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44824AFD72500447BC5 /* Sign up as a student.png */; };
+		E681D4A924AFD72500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44924AFD72500447BC5 /* Information Button@2x.png */; };
+		E681D4AA24AFD72500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44924AFD72500447BC5 /* Information Button@2x.png */; };
+		E681D4AB24AFD72500447BC5 /* Information Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44924AFD72500447BC5 /* Information Button@2x.png */; };
+		E681D4AC24AFD72500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44A24AFD72500447BC5 /* Information Button@3x.png */; };
+		E681D4AD24AFD72500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44A24AFD72500447BC5 /* Information Button@3x.png */; };
+		E681D4AE24AFD72500447BC5 /* Information Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44A24AFD72500447BC5 /* Information Button@3x.png */; };
+		E681D4AF24AFD72500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44B24AFD72500447BC5 /* Second Menu Button.png */; };
+		E681D4B024AFD72500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44B24AFD72500447BC5 /* Second Menu Button.png */; };
+		E681D4B124AFD72500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44B24AFD72500447BC5 /* Second Menu Button.png */; };
+		E681D4B224AFD72500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44C24AFD72500447BC5 /* Events@2x.png */; };
+		E681D4B324AFD72500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44C24AFD72500447BC5 /* Events@2x.png */; };
+		E681D4B424AFD72500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44C24AFD72500447BC5 /* Events@2x.png */; };
+		E681D4B524AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */; };
+		E681D4B624AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */; };
+		E681D4B724AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */; };
+		E681D4B824AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */; };
+		E681D4B924AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */; };
+		E681D4BA24AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */; };
+		E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
+		E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
+		E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
+		E681D4C424AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */; };
+		E681D4C524AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */; };
+		E681D4C624AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */; };
+		E681D4C824AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
+		E681D4C924AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
+		E681D4CA24AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
+		E681D4CC24AFEB0200447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CB24AFEB0200447BC5 /* Events@3x.png */; };
+		E681D4CD24AFEB0200447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CB24AFEB0200447BC5 /* Events@3x.png */; };
+		E681D4CE24AFEB0200447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CB24AFEB0200447BC5 /* Events@3x.png */; };
+		E681D4D024AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */; };
+		E681D4D124AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */; };
+		E681D4D224AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */; };
+		E681D4D424AFF82700447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D324AFF82700447BC5 /* Tabroom@3x.png */; };
+		E681D4D524AFF82700447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D324AFF82700447BC5 /* Tabroom@3x.png */; };
+		E681D4D624AFF82700447BC5 /* Tabroom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D324AFF82700447BC5 /* Tabroom@3x.png */; };
+		E681D4D824AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */; };
+		E681D4D924AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */; };
+		E681D4DA24AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */; };
+		E681D4DC24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */; };
+		E681D4DD24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */; };
+		E681D4DE24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */; };
+		E681D4E424B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
+		E681D4E524B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
+		E681D4E624B01C6900447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */; };
+		E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */; };
+		E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */; };
+		E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2724ADC8CF005422E1 /* ViewController.swift */; };
+		E6D10E2B24ADC8CF005422E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D10E2924ADC8CF005422E1 /* Main.storyboard */; };
+		E6D10E2E24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2C24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld */; };
+		E6D10E3024ADC8D2005422E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */; };
+		E6D10E3324ADC8D2005422E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */; };
+		E6D10E3E24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E3D24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift */; };
+		E6D10E4924ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E4824ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6D10E3A24ADC8D2005422E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D10E1824ADC8CF005422E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D10E1F24ADC8CF005422E1;
+			remoteInfo = "Leland Speech and Debate App";
+		};
+		E6D10E4524ADC8D2005422E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D10E1824ADC8CF005422E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D10E1F24ADC8CF005422E1;
+			remoteInfo = "Leland Speech and Debate App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BE5E763E14BFA7AD8B168D /* Pods_Leland_Speech_and_Debate_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leland_Speech_and_Debate_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BFCC76A976790A434094692 /* Pods-Leland Speech and Debate App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate App.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate App/Pods-Leland Speech and Debate App.debug.xcconfig"; sourceTree = "<group>"; };
+		0D4F615FE3E176BBBCC49B66 /* Pods-Leland Speech and Debate AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppTests/Pods-Leland Speech and Debate AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DE049B30994250DE67DC725 /* Pods-Leland Speech and Debate App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate App.release.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate App/Pods-Leland Speech and Debate App.release.xcconfig"; sourceTree = "<group>"; };
+		657F92FA10A5FC3430EE0CBF /* Pods-Leland Speech and Debate AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppTests.release.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppTests/Pods-Leland Speech and Debate AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leland_Speech_and_Debate_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E681D42B24AFD72500447BC5 /* Our Mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission.png"; sourceTree = "<group>"; };
+		E681D42C24AFD72500447BC5 /* Tournament button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@2x.png"; sourceTree = "<group>"; };
+		E681D42D24AFD72500447BC5 /* Tournament button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@3x.png"; sourceTree = "<group>"; };
+		E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu.png"; sourceTree = "<group>"; };
+		E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation.png"; sourceTree = "<group>"; };
+		E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student@3x.png"; sourceTree = "<group>"; };
+		E681D43124AFD72500447BC5 /* Information Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button.png"; sourceTree = "<group>"; };
+		E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation@2x.png"; sourceTree = "<group>"; };
+		E681D43324AFD72500447BC5 /* Our Mission@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission@3x.png"; sourceTree = "<group>"; };
+		E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@3x.png"; sourceTree = "<group>"; };
+		E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@2x.png"; sourceTree = "<group>"; };
+		E681D43724AFD72500447BC5 /* Our Mission@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission@2x.png"; sourceTree = "<group>"; };
+		E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "#1 Team in the nation@3x.png"; sourceTree = "<group>"; };
+		E681D43924AFD72500447BC5 /* Tournament button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button.png"; sourceTree = "<group>"; };
+		E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student@2x.png"; sourceTree = "<group>"; };
+		E681D43B24AFD72500447BC5 /* First Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button.png"; sourceTree = "<group>"; };
+		E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button@2x.png"; sourceTree = "<group>"; };
+		E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button@3x.png"; sourceTree = "<group>"; };
+		E681D43E24AFD72500447BC5 /* Logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@3x.png"; sourceTree = "<group>"; };
+		E681D43F24AFD72500447BC5 /* Tournament Info Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label.png"; sourceTree = "<group>"; };
+		E681D44024AFD72500447BC5 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		E681D44124AFD72500447BC5 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
+		E681D44224AFD72500447BC5 /* First Menu Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First Menu Button@2x.png"; sourceTree = "<group>"; };
+		E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button@3x.png"; sourceTree = "<group>"; };
+		E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@3x.png"; sourceTree = "<group>"; };
+		E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@3x.png"; sourceTree = "<group>"; };
+		E681D44624AFD72500447BC5 /* Events@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@3x.png"; sourceTree = "<group>"; };
+		E681D44724AFD72500447BC5 /* Sign Up a Judge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge.png"; sourceTree = "<group>"; };
+		E681D44824AFD72500447BC5 /* Sign up as a student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student.png"; sourceTree = "<group>"; };
+		E681D44924AFD72500447BC5 /* Information Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button@2x.png"; sourceTree = "<group>"; };
+		E681D44A24AFD72500447BC5 /* Information Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Information Button@3x.png"; sourceTree = "<group>"; };
+		E681D44B24AFD72500447BC5 /* Second Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button.png"; sourceTree = "<group>"; };
+		E681D44C24AFD72500447BC5 /* Events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@2x.png"; sourceTree = "<group>"; };
+		E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@2x.png"; sourceTree = "<group>"; };
+		E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
+		E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionPageController.swift; sourceTree = "<group>"; };
+		E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational.png"; sourceTree = "<group>"; };
+		E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentScrollController.swift; sourceTree = "<group>"; };
+		E681D4CB24AFEB0200447BC5 /* Events@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@3x.png"; sourceTree = "<group>"; };
+		E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament Info Label@3x.png"; sourceTree = "<group>"; };
+		E681D4D324AFF82700447BC5 /* Tabroom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tabroom@3x.png"; sourceTree = "<group>"; };
+		E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saint Francis Invitational Title@3x.png"; sourceTree = "<group>"; };
+		E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background for Tournaments@3x.png"; sourceTree = "<group>"; };
+		E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/Leland Speech and Debate App Assets/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leland Speech and Debate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6D10E2724ADC8CF005422E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6D10E2A24ADC8CF005422E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6D10E2D24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Leland_Speech_and_Debate_App.xcdatamodel; sourceTree = "<group>"; };
+		E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6D10E3224ADC8D2005422E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6D10E3424ADC8D2005422E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D10E3924ADC8D2005422E1 /* Leland Speech and Debate AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leland Speech and Debate AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D10E3D24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leland_Speech_and_Debate_AppTests.swift; sourceTree = "<group>"; };
+		E6D10E3F24ADC8D2005422E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D10E4424ADC8D2005422E1 /* Leland Speech and Debate AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leland Speech and Debate AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D10E4824ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leland_Speech_and_Debate_AppUITests.swift; sourceTree = "<group>"; };
+		E6D10E4A24ADC8D2005422E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E957D9BE0A29AC34D36E4BEA /* Pods-Leland Speech and Debate AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF1386A76BC8A00F54925A0B /* Pods_Leland_Speech_and_Debate_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leland_Speech_and_Debate_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6D10E1D24ADC8CF005422E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C016867CDB7A183FCBE637F /* Pods_Leland_Speech_and_Debate_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D10E3624ADC8D2005422E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B010BA52F211678846D5CE /* Pods_Leland_Speech_and_Debate_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D10E4124ADC8D2005422E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A9D7F076E6128BCC9EF98B /* Pods_Leland_Speech_and_Debate_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F8AB851418FC9146EADFFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BFCC76A976790A434094692 /* Pods-Leland Speech and Debate App.debug.xcconfig */,
+				1DE049B30994250DE67DC725 /* Pods-Leland Speech and Debate App.release.xcconfig */,
+				0D4F615FE3E176BBBCC49B66 /* Pods-Leland Speech and Debate AppTests.debug.xcconfig */,
+				657F92FA10A5FC3430EE0CBF /* Pods-Leland Speech and Debate AppTests.release.xcconfig */,
+				B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */,
+				E957D9BE0A29AC34D36E4BEA /* Pods-Leland Speech and Debate AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1A8AB5572C80A6F8C34A0F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07BE5E763E14BFA7AD8B168D /* Pods_Leland_Speech_and_Debate_App.framework */,
+				FF1386A76BC8A00F54925A0B /* Pods_Leland_Speech_and_Debate_AppTests.framework */,
+				7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E681D42A24AFD72500447BC5 /* Leland Speech and Debate App Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E681D42B24AFD72500447BC5 /* Our Mission.png */,
+				E681D42C24AFD72500447BC5 /* Tournament button@2x.png */,
+				E681D42D24AFD72500447BC5 /* Tournament button@3x.png */,
+				E681D4DB24AFF83C00447BC5 /* Background for Tournaments@3x.png */,
+				E681D4D724AFF83200447BC5 /* Saint Francis Invitational Title@3x.png */,
+				E681D42E24AFD72500447BC5 /* Drop Down Meenu.png */,
+				E681D4D324AFF82700447BC5 /* Tabroom@3x.png */,
+				E681D42F24AFD72500447BC5 /* #1 Team in the nation.png */,
+				E681D4CB24AFEB0200447BC5 /* Events@3x.png */,
+				E681D4CF24AFF81F00447BC5 /* Tournament Info Label@3x.png */,
+				E681D43024AFD72500447BC5 /* Sign up as a student@3x.png */,
+				E681D43124AFD72500447BC5 /* Information Button.png */,
+				E681D43224AFD72500447BC5 /* #1 Team in the nation@2x.png */,
+				E681D43324AFD72500447BC5 /* Our Mission@3x.png */,
+				E681D43424AFD72500447BC5 /* Tournament Info Label@3x.png */,
+				E681D43624AFD72500447BC5 /* Tournament Info Label@2x.png */,
+				E681D43724AFD72500447BC5 /* Our Mission@2x.png */,
+				E681D43824AFD72500447BC5 /* #1 Team in the nation@3x.png */,
+				E681D43924AFD72500447BC5 /* Tournament button.png */,
+				E681D43A24AFD72500447BC5 /* Sign up as a student@2x.png */,
+				E681D43B24AFD72500447BC5 /* First Menu Button.png */,
+				E681D43C24AFD72500447BC5 /* Second Menu Button@2x.png */,
+				E681D43D24AFD72500447BC5 /* First Menu Button@3x.png */,
+				E681D43E24AFD72500447BC5 /* Logo@3x.png */,
+				E681D43F24AFD72500447BC5 /* Tournament Info Label.png */,
+				E681D44024AFD72500447BC5 /* Logo.png */,
+				E681D4C324AFDFE400447BC5 /* Saint Francis Invitational.png */,
+				E681D44124AFD72500447BC5 /* Logo@2x.png */,
+				E681D44224AFD72500447BC5 /* First Menu Button@2x.png */,
+				E681D44324AFD72500447BC5 /* Second Menu Button@3x.png */,
+				E681D44424AFD72500447BC5 /* Drop Down Meenu@3x.png */,
+				E681D44524AFD72500447BC5 /* Sign Up a Judge@3x.png */,
+				E681D44624AFD72500447BC5 /* Events@3x.png */,
+				E681D44724AFD72500447BC5 /* Sign Up a Judge.png */,
+				E681D44824AFD72500447BC5 /* Sign up as a student.png */,
+				E681D44924AFD72500447BC5 /* Information Button@2x.png */,
+				E681D44A24AFD72500447BC5 /* Information Button@3x.png */,
+				E681D44B24AFD72500447BC5 /* Second Menu Button.png */,
+				E681D44C24AFD72500447BC5 /* Events@2x.png */,
+				E681D44D24AFD72500447BC5 /* Drop Down Meenu@2x.png */,
+				E681D44E24AFD72500447BC5 /* Sign Up a Judge@2x.png */,
+			);
+			name = "Leland Speech and Debate App Assets";
+			path = "../../../Desktop/Leland Speech and Debate App Assets";
+			sourceTree = "<group>";
+		};
+		E6D10E1724ADC8CF005422E1 = {
+			isa = PBXGroup;
+			children = (
+				E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */,
+				E6D10E2224ADC8CF005422E1 /* Leland Speech and Debate App */,
+				E6D10E3C24ADC8D2005422E1 /* Leland Speech and Debate AppTests */,
+				E6D10E4724ADC8D2005422E1 /* Leland Speech and Debate AppUITests */,
+				E6D10E2124ADC8CF005422E1 /* Products */,
+				E681D42A24AFD72500447BC5 /* Leland Speech and Debate App Assets */,
+				10F8AB851418FC9146EADFFC /* Pods */,
+				1A8AB5572C80A6F8C34A0F1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D10E2124ADC8CF005422E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */,
+				E6D10E3924ADC8D2005422E1 /* Leland Speech and Debate AppTests.xctest */,
+				E6D10E4424ADC8D2005422E1 /* Leland Speech and Debate AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D10E2224ADC8CF005422E1 /* Leland Speech and Debate App */ = {
+			isa = PBXGroup;
+			children = (
+				E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */,
+				E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */,
+				E6D10E2724ADC8CF005422E1 /* ViewController.swift */,
+				E6D10E2924ADC8CF005422E1 /* Main.storyboard */,
+				E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */,
+				E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */,
+				E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */,
+				E6D10E3424ADC8D2005422E1 /* Info.plist */,
+				E6D10E2C24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld */,
+				E681D4E324B01C6900447BC5 /* GoogleService-Info.plist */,
+			);
+			path = "Leland Speech and Debate App";
+			sourceTree = "<group>";
+		};
+		E6D10E3C24ADC8D2005422E1 /* Leland Speech and Debate AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D10E3D24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift */,
+				E6D10E3F24ADC8D2005422E1 /* Info.plist */,
+			);
+			path = "Leland Speech and Debate AppTests";
+			sourceTree = "<group>";
+		};
+		E6D10E4724ADC8D2005422E1 /* Leland Speech and Debate AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D10E4824ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift */,
+				E6D10E4A24ADC8D2005422E1 /* Info.plist */,
+			);
+			path = "Leland Speech and Debate AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6D10E1F24ADC8CF005422E1 /* Leland Speech and Debate App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D10E4D24ADC8D2005422E1 /* Build configuration list for PBXNativeTarget "Leland Speech and Debate App" */;
+			buildPhases = (
+				440510C96C698FC9354D5239 /* [CP] Check Pods Manifest.lock */,
+				E6D10E1C24ADC8CF005422E1 /* Sources */,
+				E6D10E1D24ADC8CF005422E1 /* Frameworks */,
+				E6D10E1E24ADC8CF005422E1 /* Resources */,
+				8AAECCD7D72211DC6A1034D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leland Speech and Debate App";
+			productName = "Leland Speech and Debate App";
+			productReference = E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6D10E3824ADC8D2005422E1 /* Leland Speech and Debate AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D10E5024ADC8D2005422E1 /* Build configuration list for PBXNativeTarget "Leland Speech and Debate AppTests" */;
+			buildPhases = (
+				0CB7DD7672F87C29056808AD /* [CP] Check Pods Manifest.lock */,
+				E6D10E3524ADC8D2005422E1 /* Sources */,
+				E6D10E3624ADC8D2005422E1 /* Frameworks */,
+				E6D10E3724ADC8D2005422E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D10E3B24ADC8D2005422E1 /* PBXTargetDependency */,
+			);
+			name = "Leland Speech and Debate AppTests";
+			productName = "Leland Speech and Debate AppTests";
+			productReference = E6D10E3924ADC8D2005422E1 /* Leland Speech and Debate AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6D10E4324ADC8D2005422E1 /* Leland Speech and Debate AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D10E5324ADC8D2005422E1 /* Build configuration list for PBXNativeTarget "Leland Speech and Debate AppUITests" */;
+			buildPhases = (
+				AD43146574DEEF842A3D52EE /* [CP] Check Pods Manifest.lock */,
+				E6D10E4024ADC8D2005422E1 /* Sources */,
+				E6D10E4124ADC8D2005422E1 /* Frameworks */,
+				E6D10E4224ADC8D2005422E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D10E4624ADC8D2005422E1 /* PBXTargetDependency */,
+			);
+			name = "Leland Speech and Debate AppUITests";
+			productName = "Leland Speech and Debate AppUITests";
+			productReference = E6D10E4424ADC8D2005422E1 /* Leland Speech and Debate AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6D10E1824ADC8CF005422E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Nikhil Chandra";
+				TargetAttributes = {
+					E6D10E1F24ADC8CF005422E1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E6D10E3824ADC8D2005422E1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E6D10E1F24ADC8CF005422E1;
+					};
+					E6D10E4324ADC8D2005422E1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E6D10E1F24ADC8CF005422E1;
+					};
+				};
+			};
+			buildConfigurationList = E6D10E1B24ADC8CF005422E1 /* Build configuration list for PBXProject "Leland Speech and Debate App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6D10E1724ADC8CF005422E1;
+			productRefGroup = E6D10E2124ADC8CF005422E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D10E1F24ADC8CF005422E1 /* Leland Speech and Debate App */,
+				E6D10E3824ADC8D2005422E1 /* Leland Speech and Debate AppTests */,
+				E6D10E4324ADC8D2005422E1 /* Leland Speech and Debate AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6D10E1E24ADC8CF005422E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681D47624AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */,
+				E681D47F24AFD72500447BC5 /* First Menu Button.png in Resources */,
+				E681D4E424B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
+				E681D4AF24AFD72500447BC5 /* Second Menu Button.png in Resources */,
+				E681D45B24AFD72500447BC5 /* #1 Team in the nation.png in Resources */,
+				E681D4D824AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
+				E681D49124AFD72500447BC5 /* Logo@2x.png in Resources */,
+				E681D4DC24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */,
+				E681D48824AFD72500447BC5 /* Logo@3x.png in Resources */,
+				E681D45824AFD72500447BC5 /* Drop Down Meenu.png in Resources */,
+				E6D10E3324ADC8D2005422E1 /* LaunchScreen.storyboard in Resources */,
+				E681D4D424AFF82700447BC5 /* Tabroom@3x.png in Resources */,
+				E681D4B524AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */,
+				E681D46424AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */,
+				E681D47C24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */,
+				E681D48524AFD72500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D47024AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */,
+				E681D46124AFD72500447BC5 /* Information Button.png in Resources */,
+				E681D4A324AFD72500447BC5 /* Sign Up a Judge.png in Resources */,
+				E681D4B224AFD72500447BC5 /* Events@2x.png in Resources */,
+				E681D4AC24AFD72500447BC5 /* Information Button@3x.png in Resources */,
+				E6D10E3024ADC8D2005422E1 /* Assets.xcassets in Resources */,
+				E681D47324AFD72500447BC5 /* Our Mission@2x.png in Resources */,
+				E681D45E24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */,
+				E681D44F24AFD72500447BC5 /* Our Mission.png in Resources */,
+				E681D46724AFD72500447BC5 /* Our Mission@3x.png in Resources */,
+				E681D46A24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D4A024AFD72500447BC5 /* Events@3x.png in Resources */,
+				E681D4CC24AFEB0200447BC5 /* Events@3x.png in Resources */,
+				E681D49424AFD72500447BC5 /* First Menu Button@2x.png in Resources */,
+				E681D4B824AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */,
+				E6D10E2B24ADC8CF005422E1 /* Main.storyboard in Resources */,
+				E681D45224AFD72500447BC5 /* Tournament button@2x.png in Resources */,
+				E681D45524AFD72500447BC5 /* Tournament button@3x.png in Resources */,
+				E681D48B24AFD72500447BC5 /* Tournament Info Label.png in Resources */,
+				E681D49D24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E681D4D024AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D4C424AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */,
+				E681D49724AFD72500447BC5 /* Second Menu Button@3x.png in Resources */,
+				E681D49A24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D48E24AFD72500447BC5 /* Logo.png in Resources */,
+				E681D48224AFD72500447BC5 /* Second Menu Button@2x.png in Resources */,
+				E681D4A624AFD72500447BC5 /* Sign up as a student.png in Resources */,
+				E681D4A924AFD72500447BC5 /* Information Button@2x.png in Resources */,
+				E681D47924AFD72500447BC5 /* Tournament button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D10E3724ADC8D2005422E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681D48024AFD72500447BC5 /* First Menu Button.png in Resources */,
+				E681D45C24AFD72500447BC5 /* #1 Team in the nation.png in Resources */,
+				E681D4B024AFD72500447BC5 /* Second Menu Button.png in Resources */,
+				E681D49224AFD72500447BC5 /* Logo@2x.png in Resources */,
+				E681D45F24AFD72500447BC5 /* Sign up as a student@3x.png in Resources */,
+				E681D45324AFD72500447BC5 /* Tournament button@2x.png in Resources */,
+				E681D49B24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D49E24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E681D48F24AFD72500447BC5 /* Logo.png in Resources */,
+				E681D45924AFD72500447BC5 /* Drop Down Meenu.png in Resources */,
+				E681D4B324AFD72500447BC5 /* Events@2x.png in Resources */,
+				E681D45024AFD72500447BC5 /* Our Mission.png in Resources */,
+				E681D48324AFD72500447BC5 /* Second Menu Button@2x.png in Resources */,
+				E681D4A124AFD72500447BC5 /* Events@3x.png in Resources */,
+				E681D47724AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */,
+				E681D48C24AFD72500447BC5 /* Tournament Info Label.png in Resources */,
+				E681D4B924AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */,
+				E681D4A424AFD72500447BC5 /* Sign Up a Judge.png in Resources */,
+				E681D49824AFD72500447BC5 /* Second Menu Button@3x.png in Resources */,
+				E681D46524AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */,
+				E681D4DD24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */,
+				E681D45624AFD72500447BC5 /* Tournament button@3x.png in Resources */,
+				E681D4A724AFD72500447BC5 /* Sign up as a student.png in Resources */,
+				E681D4CD24AFEB0200447BC5 /* Events@3x.png in Resources */,
+				E681D46224AFD72500447BC5 /* Information Button.png in Resources */,
+				E681D47D24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */,
+				E681D46824AFD72500447BC5 /* Our Mission@3x.png in Resources */,
+				E681D48924AFD72500447BC5 /* Logo@3x.png in Resources */,
+				E681D47A24AFD72500447BC5 /* Tournament button.png in Resources */,
+				E681D4B624AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */,
+				E681D4AD24AFD72500447BC5 /* Information Button@3x.png in Resources */,
+				E681D4D924AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
+				E681D47124AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */,
+				E681D4C524AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */,
+				E681D46B24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D4D124AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D47424AFD72500447BC5 /* Our Mission@2x.png in Resources */,
+				E681D4D524AFF82700447BC5 /* Tabroom@3x.png in Resources */,
+				E681D49524AFD72500447BC5 /* First Menu Button@2x.png in Resources */,
+				E681D4AA24AFD72500447BC5 /* Information Button@2x.png in Resources */,
+				E681D48624AFD72500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D4E524B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D10E4224ADC8D2005422E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681D48124AFD72500447BC5 /* First Menu Button.png in Resources */,
+				E681D45D24AFD72500447BC5 /* #1 Team in the nation.png in Resources */,
+				E681D4B124AFD72500447BC5 /* Second Menu Button.png in Resources */,
+				E681D49324AFD72500447BC5 /* Logo@2x.png in Resources */,
+				E681D46024AFD72500447BC5 /* Sign up as a student@3x.png in Resources */,
+				E681D45424AFD72500447BC5 /* Tournament button@2x.png in Resources */,
+				E681D49C24AFD72500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E681D49F24AFD72500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E681D49024AFD72500447BC5 /* Logo.png in Resources */,
+				E681D45A24AFD72500447BC5 /* Drop Down Meenu.png in Resources */,
+				E681D4B424AFD72500447BC5 /* Events@2x.png in Resources */,
+				E681D45124AFD72500447BC5 /* Our Mission.png in Resources */,
+				E681D48424AFD72500447BC5 /* Second Menu Button@2x.png in Resources */,
+				E681D4A224AFD72500447BC5 /* Events@3x.png in Resources */,
+				E681D47824AFD72500447BC5 /* #1 Team in the nation@3x.png in Resources */,
+				E681D48D24AFD72500447BC5 /* Tournament Info Label.png in Resources */,
+				E681D4BA24AFD72500447BC5 /* Sign Up a Judge@2x.png in Resources */,
+				E681D4A524AFD72500447BC5 /* Sign Up a Judge.png in Resources */,
+				E681D49924AFD72500447BC5 /* Second Menu Button@3x.png in Resources */,
+				E681D46624AFD72500447BC5 /* #1 Team in the nation@2x.png in Resources */,
+				E681D4DE24AFF83C00447BC5 /* Background for Tournaments@3x.png in Resources */,
+				E681D45724AFD72500447BC5 /* Tournament button@3x.png in Resources */,
+				E681D4A824AFD72500447BC5 /* Sign up as a student.png in Resources */,
+				E681D4CE24AFEB0200447BC5 /* Events@3x.png in Resources */,
+				E681D46324AFD72500447BC5 /* Information Button.png in Resources */,
+				E681D47E24AFD72500447BC5 /* Sign up as a student@2x.png in Resources */,
+				E681D46924AFD72500447BC5 /* Our Mission@3x.png in Resources */,
+				E681D48A24AFD72500447BC5 /* Logo@3x.png in Resources */,
+				E681D47B24AFD72500447BC5 /* Tournament button.png in Resources */,
+				E681D4B724AFD72500447BC5 /* Drop Down Meenu@2x.png in Resources */,
+				E681D4AE24AFD72500447BC5 /* Information Button@3x.png in Resources */,
+				E681D4DA24AFF83200447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
+				E681D47224AFD72500447BC5 /* Tournament Info Label@2x.png in Resources */,
+				E681D4C624AFDFE400447BC5 /* Saint Francis Invitational.png in Resources */,
+				E681D46C24AFD72500447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D4D224AFF81F00447BC5 /* Tournament Info Label@3x.png in Resources */,
+				E681D47524AFD72500447BC5 /* Our Mission@2x.png in Resources */,
+				E681D4D624AFF82700447BC5 /* Tabroom@3x.png in Resources */,
+				E681D49624AFD72500447BC5 /* First Menu Button@2x.png in Resources */,
+				E681D4AB24AFD72500447BC5 /* Information Button@2x.png in Resources */,
+				E681D48724AFD72500447BC5 /* First Menu Button@3x.png in Resources */,
+				E681D4E624B01C6900447BC5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CB7DD7672F87C29056808AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leland Speech and Debate AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		440510C96C698FC9354D5239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leland Speech and Debate App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAECCD7D72211DC6A1034D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leland Speech and Debate App/Pods-Leland Speech and Debate App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leland Speech and Debate App/Pods-Leland Speech and Debate App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Leland Speech and Debate App/Pods-Leland Speech and Debate App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD43146574DEEF842A3D52EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leland Speech and Debate AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6D10E1C24ADC8CF005422E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681D4C824AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
+				E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */,
+				E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */,
+				E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
+				E6D10E2E24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld in Sources */,
+				E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D10E3524ADC8D2005422E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681D4C924AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
+				E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
+				E6D10E3E24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D10E4024ADC8D2005422E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E681D4CA24AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
+				E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
+				E6D10E4924ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6D10E3B24ADC8D2005422E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D10E1F24ADC8CF005422E1 /* Leland Speech and Debate App */;
+			targetProxy = E6D10E3A24ADC8D2005422E1 /* PBXContainerItemProxy */;
+		};
+		E6D10E4624ADC8D2005422E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D10E1F24ADC8CF005422E1 /* Leland Speech and Debate App */;
+			targetProxy = E6D10E4524ADC8D2005422E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6D10E2924ADC8CF005422E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D10E2A24ADC8CF005422E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D10E3224ADC8D2005422E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6D10E4B24ADC8D2005422E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6D10E4C24ADC8D2005422E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6D10E4E24ADC8D2005422E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BFCC76A976790A434094692 /* Pods-Leland Speech and Debate App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				INFOPLIST_FILE = "Leland Speech and Debate App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.com.Leland-Speech-and-Debate-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6D10E4F24ADC8D2005422E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE049B30994250DE67DC725 /* Pods-Leland Speech and Debate App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				INFOPLIST_FILE = "Leland Speech and Debate App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.com.Leland-Speech-and-Debate-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6D10E5124ADC8D2005422E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4F615FE3E176BBBCC49B66 /* Pods-Leland Speech and Debate AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				INFOPLIST_FILE = "Leland Speech and Debate AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.com.Leland-Speech-and-Debate-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leland Speech and Debate App.app/Leland Speech and Debate App";
+			};
+			name = Debug;
+		};
+		E6D10E5224ADC8D2005422E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657F92FA10A5FC3430EE0CBF /* Pods-Leland Speech and Debate AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				INFOPLIST_FILE = "Leland Speech and Debate AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.com.Leland-Speech-and-Debate-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leland Speech and Debate App.app/Leland Speech and Debate App";
+			};
+			name = Release;
+		};
+		E6D10E5424ADC8D2005422E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				INFOPLIST_FILE = "Leland Speech and Debate AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.com.Leland-Speech-and-Debate-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Leland Speech and Debate App";
+			};
+			name = Debug;
+		};
+		E6D10E5524ADC8D2005422E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E957D9BE0A29AC34D36E4BEA /* Pods-Leland Speech and Debate AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D8KH3EG9;
+				INFOPLIST_FILE = "Leland Speech and Debate AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.com.Leland-Speech-and-Debate-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Leland Speech and Debate App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6D10E1B24ADC8CF005422E1 /* Build configuration list for PBXProject "Leland Speech and Debate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D10E4B24ADC8D2005422E1 /* Debug */,
+				E6D10E4C24ADC8D2005422E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D10E4D24ADC8D2005422E1 /* Build configuration list for PBXNativeTarget "Leland Speech and Debate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D10E4E24ADC8D2005422E1 /* Debug */,
+				E6D10E4F24ADC8D2005422E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D10E5024ADC8D2005422E1 /* Build configuration list for PBXNativeTarget "Leland Speech and Debate AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D10E5124ADC8D2005422E1 /* Debug */,
+				E6D10E5224ADC8D2005422E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D10E5324ADC8D2005422E1 /* Build configuration list for PBXNativeTarget "Leland Speech and Debate AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D10E5424ADC8D2005422E1 /* Debug */,
+				E6D10E5524ADC8D2005422E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6D10E2C24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6D10E2D24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodel */,
+			);
+			currentVersion = E6D10E2D24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodel */;
+			path = Leland_Speech_and_Debate_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6D10E1824ADC8CF005422E1 /* Project object */;
+}
