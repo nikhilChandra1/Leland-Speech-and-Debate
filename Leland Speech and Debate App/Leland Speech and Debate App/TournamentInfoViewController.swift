@@ -7,9 +7,11 @@
 //
 
 import UIKit
-
+import Firebase
+import FirebaseDatabase
 class TournamentInfoViewController: UIViewController {
-
+    var ref = Database.database().reference()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
