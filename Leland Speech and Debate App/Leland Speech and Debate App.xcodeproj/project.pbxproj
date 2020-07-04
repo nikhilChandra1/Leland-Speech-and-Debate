@@ -183,6 +183,9 @@
 		E681D5C524B0720200447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D5C424B0720200447BC5 /* GoogleService-Info.plist */; };
 		E681D5C624B0720200447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D5C424B0720200447BC5 /* GoogleService-Info.plist */; };
 		E681D5C724B0720200447BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E681D5C424B0720200447BC5 /* GoogleService-Info.plist */; };
+		E681D5C924B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
+		E681D5CA24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
+		E681D5CB24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
 		E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */; };
 		E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */; };
 		E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2724ADC8CF005422E1 /* ViewController.swift */; };
@@ -277,6 +280,7 @@
 		E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@2x.png"; sourceTree = "<group>"; };
 		E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
 		E681D5C424B0720200447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentInfoViewController.swift; sourceTree = "<group>"; };
 		E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leland Speech and Debate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -441,6 +445,7 @@
 				E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */,
 				E6D10E2724ADC8CF005422E1 /* ViewController.swift */,
 				E6D10E2924ADC8CF005422E1 /* Main.storyboard */,
+				E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */,
 				E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */,
 				E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */,
 				E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */,
@@ -861,6 +866,7 @@
 				E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */,
 				E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */,
 				E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
+				E681D5C924B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
 				E6D10E2E24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld in Sources */,
 				E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */,
 			);
@@ -871,6 +877,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E681D4C924AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
+				E681D5CA24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
 				E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E6D10E3E24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift in Sources */,
 			);
@@ -881,6 +888,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E681D4CA24AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
+				E681D5CB24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
 				E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E6D10E4924ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift in Sources */,
 			);
