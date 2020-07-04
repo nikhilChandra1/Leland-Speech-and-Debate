@@ -128,75 +128,132 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background for Tournaments.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ggf-fm-4Hl">
-                                <rect key="frame" x="-331" y="20" width="1038" height="608"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background for Tournaments.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ggf-fm-4Hl">
+                                <rect key="frame" x="-331.5" y="19.5" width="1038" height="608"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1038" id="4P7-ME-9dh"/>
+                                    <constraint firstAttribute="height" constant="608" id="X8h-hM-vRJ"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Saint Francis Invitational" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2Y-t6-QWz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saint Francis Invitational" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2Y-t6-QWz">
                                 <rect key="frame" x="35" y="20" width="302" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="302" id="MVs-zx-1XZ"/>
+                                    <constraint firstAttribute="height" constant="144" id="aIS-hI-pLo"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="39"/>
                                 <color key="textColor" red="0.99999052290000001" green="0.9999936223" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tournament Dates: " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0R-kc-BrQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tournament Dates: " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0R-kc-BrQ">
                                 <rect key="frame" x="36" y="128" width="311" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Hiz-ud-V48"/>
+                                    <constraint firstAttribute="width" constant="311" id="c6b-4x-7BJ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="21"/>
                                 <color key="textColor" red="0.99999052290000001" green="0.9999936223" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timings:" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyg-b9-S3c">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timings:" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyg-b9-S3c">
                                 <rect key="frame" x="36" y="254" width="300" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="WVl-if-ybF"/>
+                                    <constraint firstAttribute="height" constant="138" id="ahL-FF-MZQ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="21"/>
                                 <color key="textColor" red="0.99999052290000001" green="0.9999936223" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fees Per Event: " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpX-Q0-cdS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fees Per Event: " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpX-Q0-cdS">
                                 <rect key="frame" x="37" y="293" width="300" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="JCi-66-PLN"/>
+                                    <constraint firstAttribute="height" constant="138" id="ya2-jQ-x8L"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="21"/>
                                 <color key="textColor" red="0.99999052290000001" green="0.9999936223" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSa-sS-lh0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSa-sS-lh0">
                                 <rect key="frame" x="27" y="31" width="41" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="BdZ-N5-5N7"/>
+                                    <constraint firstAttribute="height" constant="52" id="dJJ-RE-NGa"/>
+                                </constraints>
                                 <state key="normal" image="Back Button.png"/>
                                 <connections>
                                     <segue destination="VUm-3R-t57" kind="show" id="gFG-r4-w2t"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mII-YI-g3k">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mII-YI-g3k">
                                 <rect key="frame" x="36" y="455" width="299" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Sign up as a student.png"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mII-YI-g3k" secondAttribute="height" multiplier="299:50" id="4es-oo-4mu"/>
+                                    <constraint firstAttribute="height" constant="50" id="d2q-ev-QFt"/>
+                                    <constraint firstAttribute="width" constant="299" id="kEM-ma-HE7"/>
+                                </constraints>
+                                <state key="normal" image="Sign up as a student.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hj-bA-Yuy">
                                 <rect key="frame" x="37" y="663" width="299" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Tabroom.png"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location: " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yec-i8-SVl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location: " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yec-i8-SVl">
                                 <rect key="frame" x="35" y="147" width="300" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="8RP-f7-CUT"/>
+                                    <constraint firstAttribute="height" constant="138" id="prv-xS-B8v"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="21"/>
                                 <color key="textColor" red="0.99999052290000001" green="0.9999936223" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-5x-sch">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-5x-sch">
                                 <rect key="frame" x="35" y="500" width="299" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Sign Up a Judge.png"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NKd-pm-MKq"/>
+                                    <constraint firstAttribute="width" secondItem="gbm-5x-sch" secondAttribute="height" multiplier="299:50" id="Vbv-Sx-jpa"/>
+                                    <constraint firstAttribute="width" constant="299" id="dxw-xb-jFS"/>
+                                </constraints>
+                                <state key="normal" image="Sign Up a Judge.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="er9-6i-Pz1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="er9-6i-Pz1">
                                 <rect key="frame" x="35" y="546" width="299" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Tabroom.png"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JEV-YT-D5s"/>
+                                    <constraint firstAttribute="width" secondItem="er9-6i-Pz1" secondAttribute="height" multiplier="299:50" id="LyM-dS-oJ8"/>
+                                    <constraint firstAttribute="width" constant="299" id="jtY-ne-G5m"/>
+                                </constraints>
+                                <state key="normal" image="Tabroom.png"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.070780657231807709" green="0.14639854431152344" blue="0.24314898252487183" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="centerY" secondItem="1fn-Hq-wby" secondAttribute="centerY" id="2l5-8K-6q1"/>
+                            <constraint firstItem="er9-6i-Pz1" firstAttribute="top" secondItem="Ggf-fm-4Hl" secondAttribute="bottom" constant="-81.5" id="8Ro-JP-p1C"/>
+                            <constraint firstItem="Z0R-kc-BrQ" firstAttribute="leading" secondItem="Yec-i8-SVl" secondAttribute="trailing" constant="-299" id="8zQ-c0-05D"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="leading" secondItem="gbm-5x-sch" secondAttribute="trailing" constant="-665.5" id="Bxc-2j-Avq"/>
+                            <constraint firstItem="mII-YI-g3k" firstAttribute="top" secondItem="Ggf-fm-4Hl" secondAttribute="bottom" constant="-172.5" id="D88-n8-flx"/>
+                            <constraint firstItem="V2Y-t6-QWz" firstAttribute="leading" secondItem="SSa-sS-lh0" secondAttribute="trailing" constant="-33" id="EOp-TZ-mV3"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="top" secondItem="V2Y-t6-QWz" secondAttribute="bottom" constant="-144.5" id="FSs-LI-GSH"/>
+                            <constraint firstItem="gbm-5x-sch" firstAttribute="top" secondItem="Ggf-fm-4Hl" secondAttribute="bottom" constant="-127.5" id="KcT-h2-CCs"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="leading" secondItem="V2Y-t6-QWz" secondAttribute="trailing" constant="-668.5" id="LJj-35-8FC"/>
+                            <constraint firstItem="Yec-i8-SVl" firstAttribute="top" secondItem="Z0R-kc-BrQ" secondAttribute="bottom" constant="-81" id="P1c-oj-mOk"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="centerX" secondItem="1fn-Hq-wby" secondAttribute="centerX" id="W7X-sP-ycb"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="centerY" secondItem="1fn-Hq-wby" secondAttribute="centerY" id="aHp-5C-hnQ"/>
+                            <constraint firstItem="vpX-Q0-cdS" firstAttribute="top" secondItem="Pyg-b9-S3c" secondAttribute="bottom" constant="-99" id="eyP-H5-qvV"/>
+                            <constraint firstItem="Pyg-b9-S3c" firstAttribute="top" secondItem="Yec-i8-SVl" secondAttribute="bottom" constant="-31" id="fBw-kq-1Hi"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="centerX" secondItem="1fn-Hq-wby" secondAttribute="centerX" id="j1t-8x-uTc"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="leading" secondItem="er9-6i-Pz1" secondAttribute="trailing" constant="-665.5" id="jGy-80-evB"/>
+                            <constraint firstItem="Ggf-fm-4Hl" firstAttribute="leading" secondItem="mII-YI-g3k" secondAttribute="trailing" constant="-666.5" id="kWu-oJ-W7S"/>
+                            <constraint firstItem="Z0R-kc-BrQ" firstAttribute="top" secondItem="V2Y-t6-QWz" secondAttribute="bottom" constant="-36" id="lTP-9c-9ej"/>
+                            <constraint firstItem="Pyg-b9-S3c" firstAttribute="leading" secondItem="Yec-i8-SVl" secondAttribute="trailing" constant="-299" id="mdY-9B-J76"/>
+                            <constraint firstItem="vpX-Q0-cdS" firstAttribute="leading" secondItem="Pyg-b9-S3c" secondAttribute="trailing" constant="-299" id="vBC-9F-k81"/>
+                            <constraint firstItem="Z0R-kc-BrQ" firstAttribute="leading" secondItem="V2Y-t6-QWz" secondAttribute="trailing" constant="-301" id="z8C-hG-igf"/>
+                            <constraint firstItem="V2Y-t6-QWz" firstAttribute="top" secondItem="SSa-sS-lh0" secondAttribute="bottom" constant="-63" id="zd0-cD-AoK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aMg-pi-pnX"/>
                     </view>
                     <navigationItem key="navigationItem" id="qch-go-zTk"/>
