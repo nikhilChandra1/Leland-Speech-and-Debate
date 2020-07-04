@@ -10,12 +10,10 @@
 		1C016867CDB7A183FCBE637F /* Pods_Leland_Speech_and_Debate_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BE5E763E14BFA7AD8B168D /* Pods_Leland_Speech_and_Debate_App.framework */; };
 		38A9D7F076E6128BCC9EF98B /* Pods_Leland_Speech_and_Debate_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */; };
 		49B010BA52F211678846D5CE /* Pods_Leland_Speech_and_Debate_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1386A76BC8A00F54925A0B /* Pods_Leland_Speech_and_Debate_AppTests.framework */; };
+		E66F44CA24B10FB3004DAFD0 /* TournamentScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66F44C924B10FB3004DAFD0 /* TournamentScrollViewController.swift */; };
 		E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
 		E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
 		E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
-		E681D4C824AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
-		E681D4C924AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
-		E681D4CA24AFE27B00447BC5 /* TournamentScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */; };
 		E681D51F24B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
 		E681D52024B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
 		E681D52124B02EC500447BC5 /* Our Mission.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D4E824B02EC500447BC5 /* Our Mission.png */; };
@@ -222,8 +220,8 @@
 		657F92FA10A5FC3430EE0CBF /* Pods-Leland Speech and Debate AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppTests.release.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppTests/Pods-Leland Speech and Debate AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leland_Speech_and_Debate_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E66F44C924B10FB3004DAFD0 /* TournamentScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentScrollViewController.swift; sourceTree = "<group>"; };
 		E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionPageController.swift; sourceTree = "<group>"; };
-		E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentScrollController.swift; sourceTree = "<group>"; };
 		E681D4E824B02EC500447BC5 /* Our Mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission.png"; sourceTree = "<group>"; };
 		E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Component 2 – 1@2x.png"; sourceTree = "<group>"; };
 		E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tournament button@2x.png"; sourceTree = "<group>"; };
@@ -417,7 +415,6 @@
 		E6D10E1724ADC8CF005422E1 = {
 			isa = PBXGroup;
 			children = (
-				E681D4C724AFE27B00447BC5 /* TournamentScrollController.swift */,
 				E6D10E2224ADC8CF005422E1 /* Leland Speech and Debate App */,
 				E6D10E3C24ADC8D2005422E1 /* Leland Speech and Debate AppTests */,
 				E6D10E4724ADC8D2005422E1 /* Leland Speech and Debate AppUITests */,
@@ -442,10 +439,11 @@
 			isa = PBXGroup;
 			children = (
 				E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */,
+				E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */,
 				E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */,
 				E6D10E2724ADC8CF005422E1 /* ViewController.swift */,
 				E6D10E2924ADC8CF005422E1 /* Main.storyboard */,
-				E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */,
+				E66F44C924B10FB3004DAFD0 /* TournamentScrollViewController.swift */,
 				E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */,
 				E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */,
 				E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */,
@@ -862,8 +860,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E681D4C824AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
 				E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */,
+				E66F44CA24B10FB3004DAFD0 /* TournamentScrollViewController.swift in Sources */,
 				E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */,
 				E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E681D5C924B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
@@ -876,7 +874,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E681D4C924AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
 				E681D5CA24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
 				E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E6D10E3E24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift in Sources */,
@@ -887,7 +884,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E681D4CA24AFE27B00447BC5 /* TournamentScrollController.swift in Sources */,
 				E681D5CB24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
 				E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E6D10E4924ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift in Sources */,

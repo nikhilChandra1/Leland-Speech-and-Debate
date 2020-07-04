@@ -9,13 +9,65 @@
 import UIKit
 import Firebase
 import FirebaseDatabase
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 class TournamentInfoViewController: UIViewController {
-    var ref = Database.database().reference()
     
+    @IBOutlet var Location: UILabel!
+    @IBOutlet var Timings: UILabel!
+    @IBOutlet var feesPerEvent: UILabel!
+    @IBOutlet var titulo: UILabel!
+    
+    @IBOutlet var Dates: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let db = Firestore.firestore()
+        let docRef = db.collection("Tournaments").document(tournament)
+        
+        docRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                var dataDescription = document.data().map(String.init(describing:)) ?? "nil"
+                
+                print("Document data: \(dataDescription)")
+                
+                func convertToDictionary(text: String) -> [String: Any]? {
+                    if let data = text.data(using: .utf8) {
+                        do {
+                            return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                        } catch {
+                            print(error.localizedDescription)
+                        }
+                    }
+                    return nil
+                }
+                dataDescription = dataDescription.replacingOccurrences(of: "[", with: "{", options: .literal, range: nil)
+                dataDescription = dataDescription.replacingOccurrences(of: "]", with: "}", options: .literal, range: nil)
+                print(dataDescription)
+                var dict = convertToDictionary(text: dataDescription)
+                print(dict)
+                if let location = dict?["Location"] {
+                    self.Location.text = "Location: " + String(describing: location)
+                }
+                if let tournamentFees = dict?["Tournament Fees"] {
+                    self.feesPerEvent.text = "Fees Per Event: " + String(describing: tournamentFees)
+                }
+                if let title = dict?["Title"] {
+                    self.titulo.text = String(describing: title)
+                }
+                if let timings = dict?["Timings"] {
+                    self.Timings.text = "Timings: " + String(describing: timings)
+                }
+                if let tournamentDates = dict?["Tournament Dates"] {
+                    self.Dates.text = "Tournament Dates: " + String(describing: tournamentDates)
+                }
+               
+            } else {
+                print("Document does not exist")
+            }
+        }
+        
         // Do any additional setup after loading the view.
+        
     }
     
 

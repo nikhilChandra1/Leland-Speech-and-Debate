@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O0g-gV-VgL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VUm-3R-t57">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.31034482758622"/>
         </scene>
-        <!--Tournament Info View Controller-->
+        <!--Tournament Scroll View Controller-->
         <scene sceneID="FAP-sc-dYL">
             <objects>
-                <viewController id="VUm-3R-t57" customClass="TournamentInfoViewController" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VUm-3R-t57" customClass="TournamentScrollViewController" customModule="Leland_Speech_and_Debate_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WCz-eG-iTe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,6 +100,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Information Button.png"/>
                                 <connections>
+                                    <action selector="SaintFrancisInvitational:" destination="VUm-3R-t57" eventType="touchUpInside" id="8gN-yq-RkR"/>
                                     <segue destination="bZy-1v-2bk" kind="show" id="qDw-N7-acw"/>
                                 </connections>
                             </button>
@@ -119,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1168.8" y="315.51724137931035"/>
         </scene>
-        <!--View Controller-->
+        <!--Tournament Info View Controller-->
         <scene sceneID="d0W-43-juX">
             <objects>
-                <viewController id="bZy-1v-2bk" sceneMemberID="viewController">
+                <viewController id="bZy-1v-2bk" customClass="TournamentInfoViewController" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1fn-Hq-wby">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,10 +200,17 @@
                         <viewLayoutGuide key="safeArea" id="aMg-pi-pnX"/>
                     </view>
                     <navigationItem key="navigationItem" id="qch-go-zTk"/>
+                    <connections>
+                        <outlet property="Dates" destination="Z0R-kc-BrQ" id="yy2-it-AyU"/>
+                        <outlet property="Location" destination="Yec-i8-SVl" id="3fV-r9-rnv"/>
+                        <outlet property="Timings" destination="Pyg-b9-S3c" id="Vje-5e-fa7"/>
+                        <outlet property="feesPerEvent" destination="vpX-Q0-cdS" id="7Fl-Hp-Mzp"/>
+                        <outlet property="titulo" destination="V2Y-t6-QWz" id="gdr-IX-9NE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3S-tX-56I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="1009"/>
+            <point key="canvasLocation" x="2153" y="586"/>
         </scene>
         <!--Our Mission Page Controller-->
         <scene sceneID="jUD-yv-AfN">
@@ -320,7 +328,4 @@
         <image name="Tournament Info Label.png" width="133" height="16.5"/>
         <image name="Tournament button.png" width="187.5" height="162.5"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="qDw-N7-acw"/>
-    </inferredMetricsTieBreakers>
 </document>

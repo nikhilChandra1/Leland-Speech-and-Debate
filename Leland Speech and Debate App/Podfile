@@ -10,6 +10,11 @@ target 'Leland Speech and Debate App' do
 pod 'Firebase'
 pod 'Firebase/Analytics'
 pod 'Firebase/Database'
+pod 'Firebase/Firestore'
+pod 'FirebaseFirestoreSwift'
+pod 'DropDown'
+
+
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods
   target 'Leland Speech and Debate AppTests' do
