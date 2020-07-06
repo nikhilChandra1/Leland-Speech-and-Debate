@@ -22,7 +22,7 @@ class TournamentInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let db = Firestore.firestore()
-        let docRef = db.collection("Tournaments").document(tournament)
+        let docRef = db.collection("Tournaments").document("Saint Francis")
         
         docRef.getDocument { (document, error) in
             if let document = document, document.exists {
