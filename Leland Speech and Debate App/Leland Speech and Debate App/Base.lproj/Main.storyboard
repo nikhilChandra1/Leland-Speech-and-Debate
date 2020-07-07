@@ -56,6 +56,33 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="129.31034482758622"/>
         </scene>
+        <!--Web Page View Controller-->
+        <scene sceneID="AuB-Hx-WhB">
+            <objects>
+                <viewController id="1EN-o2-bQW" customClass="webPageViewController" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s48-bf-kR5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4BJ-IX-cQs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Qz-i6-EJr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KGe-2z-IKs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iTV-lk-zc2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-602" y="1013"/>
+        </scene>
         <!--Scroll Collection View Controller-->
         <scene sceneID="mkn-er-cLK">
             <objects>
@@ -188,16 +215,17 @@
                             <constraint firstItem="5BV-Mg-evj" firstAttribute="leading" secondItem="Zfv-ER-1Cf" secondAttribute="leading" id="C1F-ZX-OWg"/>
                             <constraint firstItem="5BV-Mg-evj" firstAttribute="bottom" secondItem="Zfv-ER-1Cf" secondAttribute="bottom" id="Ihz-Tk-fAt"/>
                             <constraint firstItem="YZA-nK-jOQ" firstAttribute="centerX" secondItem="pfK-Jt-1Ot" secondAttribute="centerX" id="KYJ-hD-djS"/>
+                            <constraint firstItem="TSI-CK-I3O" firstAttribute="leading" secondItem="Zfv-ER-1Cf" secondAttribute="leading" constant="16" id="MLW-WB-PQN"/>
                             <constraint firstItem="5BV-Mg-evj" firstAttribute="trailing" secondItem="Zfv-ER-1Cf" secondAttribute="trailing" id="RP4-UY-H8T"/>
                             <constraint firstItem="YZA-nK-jOQ" firstAttribute="top" secondItem="Zfv-ER-1Cf" secondAttribute="top" constant="72" id="euK-yD-vgX"/>
-                            <constraint firstItem="YZA-nK-jOQ" firstAttribute="leading" secondItem="TSI-CK-I3O" secondAttribute="trailing" constant="-0.5" id="knd-vF-Lua"/>
-                            <constraint firstItem="YZA-nK-jOQ" firstAttribute="top" secondItem="TSI-CK-I3O" secondAttribute="bottom" constant="13" id="uJU-AO-mWb"/>
                             <constraint firstItem="5BV-Mg-evj" firstAttribute="top" secondItem="YZA-nK-jOQ" secondAttribute="bottom" constant="17" id="yZU-l7-LTq"/>
+                            <constraint firstItem="TSI-CK-I3O" firstAttribute="top" secondItem="Zfv-ER-1Cf" secondAttribute="top" constant="20" id="z1f-RR-2ku"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zfv-ER-1Cf"/>
                     </view>
                     <connections>
                         <outlet property="collectionview" destination="5BV-Mg-evj" id="pnF-B0-hxd"/>
+                        <segue destination="1EN-o2-bQW" kind="show" identifier="toWebpageIdentifier" id="3Tq-Tc-kO7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUS-ee-qpZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -275,6 +303,9 @@
                                     <constraint firstAttribute="width" constant="299" id="kEM-ma-HE7"/>
                                 </constraints>
                                 <state key="normal" image="Sign up as a student.png"/>
+                                <connections>
+                                    <action selector="signUpStudent:" destination="bZy-1v-2bk" eventType="touchUpInside" id="iBK-VP-naQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hj-bA-Yuy">
                                 <rect key="frame" x="37" y="663" width="299" height="50"/>
@@ -299,6 +330,9 @@
                                     <constraint firstAttribute="width" constant="299" id="dxw-xb-jFS"/>
                                 </constraints>
                                 <state key="normal" image="Sign Up a Judge.png"/>
+                                <connections>
+                                    <action selector="signUpJudge:" destination="bZy-1v-2bk" eventType="touchUpInside" id="mkM-X0-qMW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="er9-6i-Pz1">
                                 <rect key="frame" x="35" y="546" width="299" height="50"/>
@@ -308,6 +342,9 @@
                                     <constraint firstAttribute="width" constant="299" id="jtY-ne-G5m"/>
                                 </constraints>
                                 <state key="normal" image="Tabroom.png"/>
+                                <connections>
+                                    <action selector="tabroomLink:" destination="bZy-1v-2bk" eventType="touchUpInside" id="13u-cK-m2u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.070780657231807709" green="0.14639854431152344" blue="0.24314898252487183" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -344,6 +381,7 @@
                         <outlet property="Timings" destination="Pyg-b9-S3c" id="Vje-5e-fa7"/>
                         <outlet property="feesPerEvent" destination="vpX-Q0-cdS" id="7Fl-Hp-Mzp"/>
                         <outlet property="titulo" destination="V2Y-t6-QWz" id="gdr-IX-9NE"/>
+                        <segue destination="1EN-o2-bQW" kind="show" identifier="toWebPageFromInfo" id="VTk-GA-94Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3S-tX-56I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -388,72 +426,12 @@
             </objects>
             <point key="canvasLocation" x="1168.8" y="-355.7721139430285"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="vnC-zO-EBL">
-            <objects>
-                <viewController id="UeC-R6-ONW" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mxa-Zl-EFT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98X-R9-H8J">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R61-Vs-sHy">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Events.png" translatesAutoresizingMaskIntoConstraints="NO" id="KSh-h9-YSQ">
-                                                <rect key="frame" x="-756" y="0.0" width="1889" height="3183"/>
-                                                <color key="backgroundColor" red="0.070780657231807709" green="0.14639854431152344" blue="0.24314898252487183" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="994-0V-brW">
-                                                <rect key="frame" x="47" y="14" width="37" height="38"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Drop Down Meenu.png"/>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstItem="KSh-h9-YSQ" firstAttribute="top" secondItem="R61-Vs-sHy" secondAttribute="top" id="Aqd-cE-cQc"/>
-                                            <constraint firstItem="KSh-h9-YSQ" firstAttribute="leading" secondItem="R61-Vs-sHy" secondAttribute="leading" id="ZFJ-6l-xeW"/>
-                                            <constraint firstAttribute="bottom" secondItem="KSh-h9-YSQ" secondAttribute="bottom" id="mO1-3h-T11"/>
-                                            <constraint firstAttribute="trailing" secondItem="KSh-h9-YSQ" secondAttribute="trailing" id="yrW-fT-0YO"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="R61-Vs-sHy" firstAttribute="bottom" secondItem="OCH-9l-4m4" secondAttribute="bottom" constant="667" id="BtD-Kl-PyA"/>
-                                    <constraint firstItem="R61-Vs-sHy" firstAttribute="width" secondItem="SbP-Ab-1RB" secondAttribute="width" id="X4N-Vd-cxh"/>
-                                    <constraint firstItem="R61-Vs-sHy" firstAttribute="bottom" secondItem="SbP-Ab-1RB" secondAttribute="bottom" id="cwz-vZ-woX"/>
-                                    <constraint firstItem="R61-Vs-sHy" firstAttribute="top" secondItem="OCH-9l-4m4" secondAttribute="top" id="dpK-vK-J3w"/>
-                                    <constraint firstItem="R61-Vs-sHy" firstAttribute="trailing" secondItem="OCH-9l-4m4" secondAttribute="trailing" constant="375" id="fEx-ku-wiU"/>
-                                    <constraint firstItem="R61-Vs-sHy" firstAttribute="leading" secondItem="OCH-9l-4m4" secondAttribute="leading" id="qxU-IE-oAa"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="OCH-9l-4m4"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="SbP-Ab-1RB"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="98X-R9-H8J" firstAttribute="trailing" secondItem="GTU-XV-vQ8" secondAttribute="trailing" id="Fpt-fq-13S"/>
-                            <constraint firstItem="98X-R9-H8J" firstAttribute="leading" secondItem="GTU-XV-vQ8" secondAttribute="leading" id="VkK-Kf-lZF"/>
-                            <constraint firstItem="98X-R9-H8J" firstAttribute="top" secondItem="GTU-XV-vQ8" secondAttribute="top" id="oWZ-Wd-bER"/>
-                            <constraint firstItem="98X-R9-H8J" firstAttribute="bottom" secondItem="GTU-XV-vQ8" secondAttribute="bottom" id="v7B-FS-j4x"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="GTU-XV-vQ8"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ijS-sz-ZAa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2037.5999999999999" y="-258.62068965517244"/>
-        </scene>
     </scenes>
     <resources>
         <image name="#1 Team in the nation.png" width="76.5" height="13.5"/>
         <image name="Back Button.png" width="13.5" height="21.5"/>
         <image name="Background for Tournaments.png" width="225" height="402"/>
         <image name="Drop Down Meenu.png" width="17" height="17"/>
-        <image name="Events.png" width="310" height="3290.5"/>
         <image name="First Menu Button.png" width="26.5" height="26.5"/>
         <image name="Information Button.png" width="153" height="27"/>
         <image name="Logo.png" width="163.5" height="181.5"/>
@@ -748,4 +726,7 @@ AABAnA
 </mutableData>
         </image>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="VTk-GA-94Q"/>
+    </inferredMetricsTieBreakers>
 </document>

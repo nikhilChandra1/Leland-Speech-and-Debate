@@ -133,9 +133,6 @@
 		E681D59124B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */; };
 		E681D59224B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */; };
 		E681D59324B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */; };
-		E681D59424B02EC500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50F24B02EC500447BC5 /* Events@3x.png */; };
-		E681D59524B02EC500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50F24B02EC500447BC5 /* Events@3x.png */; };
-		E681D59624B02EC500447BC5 /* Events@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D50F24B02EC500447BC5 /* Events@3x.png */; };
 		E681D59724B02EC500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51024B02EC500447BC5 /* Sign Up a Judge.png */; };
 		E681D59824B02EC500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51024B02EC500447BC5 /* Sign Up a Judge.png */; };
 		E681D59924B02EC500447BC5 /* Sign Up a Judge.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51024B02EC500447BC5 /* Sign Up a Judge.png */; };
@@ -172,9 +169,6 @@
 		E681D5B824B02EC500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51B24B02EC500447BC5 /* Second Menu Button.png */; };
 		E681D5B924B02EC500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51B24B02EC500447BC5 /* Second Menu Button.png */; };
 		E681D5BA24B02EC500447BC5 /* Second Menu Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51B24B02EC500447BC5 /* Second Menu Button.png */; };
-		E681D5BB24B02EC500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51C24B02EC500447BC5 /* Events@2x.png */; };
-		E681D5BC24B02EC500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51C24B02EC500447BC5 /* Events@2x.png */; };
-		E681D5BD24B02EC500447BC5 /* Events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51C24B02EC500447BC5 /* Events@2x.png */; };
 		E681D5BE24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */; };
 		E681D5BF24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */; };
 		E681D5C024B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */; };
@@ -187,6 +181,7 @@
 		E681D5C924B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
 		E681D5CA24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
 		E681D5CB24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
+		E6CFBA4924B3E82D00FF856A /* webPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFBA4824B3E82D00FF856A /* webPageViewController.swift */; };
 		E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */; };
 		E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */; };
 		E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2724ADC8CF005422E1 /* ViewController.swift */; };
@@ -265,7 +260,6 @@
 		E681D50C24B02EC500447BC5 /* Back Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button@3x.png"; sourceTree = "<group>"; };
 		E681D50D24B02EC500447BC5 /* Drop Down Meenu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@3x.png"; sourceTree = "<group>"; };
 		E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@3x.png"; sourceTree = "<group>"; };
-		E681D50F24B02EC500447BC5 /* Events@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@3x.png"; sourceTree = "<group>"; };
 		E681D51024B02EC500447BC5 /* Sign Up a Judge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge.png"; sourceTree = "<group>"; };
 		E681D51124B02EC500447BC5 /* Sign up as a student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student.png"; sourceTree = "<group>"; };
 		E681D51224B02EC500447BC5 /* Background for Tournaments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background for Tournaments@2x.png"; sourceTree = "<group>"; };
@@ -278,11 +272,11 @@
 		E681D51924B02EC500447BC5 /* Tabroom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tabroom@3x.png"; sourceTree = "<group>"; };
 		E681D51A24B02EC500447BC5 /* Background for Tournaments@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background for Tournaments@3x.png"; sourceTree = "<group>"; };
 		E681D51B24B02EC500447BC5 /* Second Menu Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Menu Button.png"; sourceTree = "<group>"; };
-		E681D51C24B02EC500447BC5 /* Events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Events@2x.png"; sourceTree = "<group>"; };
 		E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Down Meenu@2x.png"; sourceTree = "<group>"; };
 		E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
 		E681D5C424B0720200447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentInfoViewController.swift; sourceTree = "<group>"; };
+		E6CFBA4824B3E82D00FF856A /* webPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webPageViewController.swift; sourceTree = "<group>"; };
 		E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leland Speech and Debate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -402,7 +396,6 @@
 				E681D50C24B02EC500447BC5 /* Back Button@3x.png */,
 				E681D50D24B02EC500447BC5 /* Drop Down Meenu@3x.png */,
 				E681D50E24B02EC500447BC5 /* Sign Up a Judge@3x.png */,
-				E681D50F24B02EC500447BC5 /* Events@3x.png */,
 				E681D51024B02EC500447BC5 /* Sign Up a Judge.png */,
 				E681D51124B02EC500447BC5 /* Sign up as a student.png */,
 				E681D51224B02EC500447BC5 /* Background for Tournaments@2x.png */,
@@ -415,7 +408,6 @@
 				E681D51924B02EC500447BC5 /* Tabroom@3x.png */,
 				E681D51A24B02EC500447BC5 /* Background for Tournaments@3x.png */,
 				E681D51B24B02EC500447BC5 /* Second Menu Button.png */,
-				E681D51C24B02EC500447BC5 /* Events@2x.png */,
 				E681D51D24B02EC500447BC5 /* Drop Down Meenu@2x.png */,
 				E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */,
 			);
@@ -456,6 +448,7 @@
 				E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */,
 				E6D10E2724ADC8CF005422E1 /* ViewController.swift */,
 				E6D10E2924ADC8CF005422E1 /* Main.storyboard */,
+				E6CFBA4824B3E82D00FF856A /* webPageViewController.swift */,
 				E6389F6424B1C7A7006ADDD4 /* scrollCollectionViewController.swift */,
 				E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */,
 				E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */,
@@ -617,7 +610,6 @@
 				E681D56124B02EC500447BC5 /* First Menu Button.png in Resources */,
 				E6D10E3324ADC8D2005422E1 /* LaunchScreen.storyboard in Resources */,
 				E681D57024B02EC500447BC5 /* First Menu Button@3x.png in Resources */,
-				E681D59424B02EC500447BC5 /* Events@3x.png in Resources */,
 				E681D59D24B02EC500447BC5 /* Background for Tournaments@2x.png in Resources */,
 				E681D58224B02EC500447BC5 /* First Menu Button@2x.png in Resources */,
 				E681D54024B02EC500447BC5 /* Our Mission@3x.png in Resources */,
@@ -646,7 +638,6 @@
 				E681D5BE24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
 				E681D56724B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */,
 				E681D58524B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
-				E681D5BB24B02EC500447BC5 /* Events@2x.png in Resources */,
 				E681D52824B02EC500447BC5 /* Tournament button@3x.png in Resources */,
 				E681D55E24B02EC500447BC5 /* Sign up as a student@2x.png in Resources */,
 				E681D53A24B02EC500447BC5 /* Information Button.png in Resources */,
@@ -705,11 +696,9 @@
 				E681D55624B02EC500447BC5 /* Background for Tournaments.png in Resources */,
 				E681D59224B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
 				E681D52C24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
-				E681D59524B02EC500447BC5 /* Events@3x.png in Resources */,
 				E681D5BF24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
 				E681D53824B02EC500447BC5 /* Sign up as a student@3x.png in Resources */,
 				E681D54124B02EC500447BC5 /* Our Mission@3x.png in Resources */,
-				E681D5BC24B02EC500447BC5 /* Events@2x.png in Resources */,
 				E681D5B324B02EC500447BC5 /* Tabroom@3x.png in Resources */,
 				E681D56824B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */,
 				E681D57724B02EC500447BC5 /* Tournament Info Label.png in Resources */,
@@ -768,11 +757,9 @@
 				E681D55724B02EC500447BC5 /* Background for Tournaments.png in Resources */,
 				E681D59324B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
 				E681D52D24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
-				E681D59624B02EC500447BC5 /* Events@3x.png in Resources */,
 				E681D5C024B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
 				E681D53924B02EC500447BC5 /* Sign up as a student@3x.png in Resources */,
 				E681D54224B02EC500447BC5 /* Our Mission@3x.png in Resources */,
-				E681D5BD24B02EC500447BC5 /* Events@2x.png in Resources */,
 				E681D5B424B02EC500447BC5 /* Tabroom@3x.png in Resources */,
 				E681D56924B02EC500447BC5 /* Saint Francis Invitational Title@2x.png in Resources */,
 				E681D57824B02EC500447BC5 /* Tournament Info Label.png in Resources */,
@@ -878,6 +865,7 @@
 				E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */,
 				E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E681D5C924B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
+				E6CFBA4924B3E82D00FF856A /* webPageViewController.swift in Sources */,
 				E6D10E2E24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld in Sources */,
 				E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */,
 				E6389F6524B1C7A7006ADDD4 /* scrollCollectionViewController.swift in Sources */,

@@ -19,10 +19,83 @@ class TournamentInfoViewController: UIViewController {
     @IBOutlet var titulo: UILabel!
     
     @IBOutlet var Dates: UILabel!
+    func getInfo(whatInfo: String) {
+        print(whatInfo)
+        let db = Firestore.firestore()
+        let docRef = db.collection("Tournaments").document(tourney)
+        
+        
+        docRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                var dataDescription = document.data().map(String.init(describing:)) ?? "nil"
+                
+                print("Document data: \(dataDescription)")
+                
+                func convertToDictionary(text: String) -> [String: Any]? {
+                    if let data = text.data(using: .utf8) {
+                        do {
+                            return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                        } catch {
+                            print(error.localizedDescription)
+                        }
+                    }
+                    return nil
+                }
+                dataDescription = dataDescription.replacingOccurrences(of: "[", with: "{", options: .literal, range: nil)
+                dataDescription = dataDescription.replacingOccurrences(of: "]", with: "}", options: .literal, range: nil)
+                print(dataDescription)
+                var dict = convertToDictionary(text: dataDescription)
+                print(dict)
+                if let webpageJudge = dict?[whatInfo] {
+                     webpage = String(describing: webpageJudge)
+                     self.performSegue(withIdentifier: "toWebPageFromInfo", sender: nil)
+                }
+                else {
+                    let alert  = UIAlertController(title: "Not Available Yet", message: "lease check later", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    self.present(alert, animated: true)
+                    print("webpage not found")
+                }
+                
+                
+               
+            } else {
+                print("Document does not exist")
+            }
+        }
+    }
+
+    @IBAction func signUpStudent(_ sender: Any) {
+        getInfo(whatInfo: "Student Sign Up")
+    }
+    @IBAction func signUpJudge(_ sender: Any) {
+        getInfo(whatInfo: "Judge Sign Up")
+    }
+    @IBAction func tabroomLink(_ sender: Any) {
+        getInfo(whatInfo: "Tabroom Link")
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let db = Firestore.firestore()
-        let docRef = db.collection("Tournaments").document("Saint Francis")
+        let docRef = db.collection("Tournaments").document(tourney)
         
         docRef.getDocument { (document, error) in
             if let document = document, document.exists {

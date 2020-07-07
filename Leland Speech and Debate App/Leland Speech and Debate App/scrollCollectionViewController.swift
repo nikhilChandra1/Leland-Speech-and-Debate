@@ -12,7 +12,7 @@ import FirebaseFirestoreSwift
 import FirebaseFirestore
 
 private let reuseIdentifier = "tourneyIdentifier"
-
+var tourney = " "
 class scrollCollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
     var tournaments = [String]()
     
@@ -24,6 +24,7 @@ class scrollCollectionViewController: UIViewController, UICollectionViewDelegate
         collectionview.dataSource = self
         fetchTourneys()
         
+
         self.collectionview.reloadData()
         //collectionview?.register(UINib(nibName: "ScrollCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
         
@@ -41,6 +42,8 @@ class scrollCollectionViewController: UIViewController, UICollectionViewDelegate
 
         // Do any additional setup after loading the view.
     }
+    
+    
     func fetchTourneys() {
         let db = Firestore.firestore()
         db.collection("Tournaments").getDocuments() { (querySnapshot, err) in
@@ -90,7 +93,18 @@ class scrollCollectionViewController: UIViewController, UICollectionViewDelegate
         print(cell.signUpAJudge)
         print(cell.signUpStudent)
         cell.isHidden = false
-        
+        cell.addButtonTapAction = {
+            // implement your logic here, e.g. call preformSegue()
+            self.performSegue(withIdentifier: "toWebpageIdentifier", sender: self)
+        }
+        cell.createAlert = {
+            
+            let alert  = UIAlertController(title: "Not Available Yet", message: "lease check later", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true)
+                
+            
+        }
         
         // Configure the cell
         print(cell)
