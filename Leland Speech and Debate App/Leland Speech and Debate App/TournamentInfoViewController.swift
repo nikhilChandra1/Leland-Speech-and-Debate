@@ -94,6 +94,7 @@ class TournamentInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.titulo.text = tourney
         let db = Firestore.firestore()
         let docRef = db.collection("Tournaments").document(tourney)
         

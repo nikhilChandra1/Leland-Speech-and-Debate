@@ -99,7 +99,7 @@ class scrollCollectionViewController: UIViewController, UICollectionViewDelegate
         }
         cell.createAlert = {
             
-            let alert  = UIAlertController(title: "Not Available Yet", message: "lease check later", preferredStyle: .alert)
+            let alert  = UIAlertController(title: "Not Available Yet", message: "Please check later", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true)
                 
