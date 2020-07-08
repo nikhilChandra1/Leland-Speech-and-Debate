@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NpR-DJ-na6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wNA-cF-hDL">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -88,10 +88,13 @@
                         <viewLayoutGuide key="safeArea" id="6Qz-i6-EJr"/>
                     </view>
                     <navigationItem key="navigationItem" id="KGe-2z-IKs"/>
+                    <connections>
+                        <segue destination="z1N-d0-MwG" kind="show" identifier="backToTourney" id="Tpf-Fh-faF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iTV-lk-zc2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-602" y="1013"/>
+            <point key="canvasLocation" x="636" y="987"/>
         </scene>
         <!--Scroll Collection View Controller-->
         <scene sceneID="mkn-er-cLK">
@@ -468,7 +471,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tsk-Yl-Emn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3602" y="-1370"/>
+            <point key="canvasLocation" x="687" y="-786"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vM9-wJ-UwK">
@@ -525,6 +528,10 @@
             <point key="canvasLocation" x="1722" y="988"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cgY-yZ-Lpv"/>
+        <segue reference="VTk-GA-94Q"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="#1 Team in the nation.png" width="385" height="83"/>
         <image name="Back Button.png" width="13.5" height="21.5"/>
@@ -540,9 +547,4 @@
         <image name="Tournament Info Label.png" width="133" height="16.5"/>
         <image name="Tournament button.png" width="187.5" height="162.5"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="qDw-N7-acw"/>
-        <segue reference="cgY-yZ-Lpv"/>
-        <segue reference="3Tq-Tc-kO7"/>
-    </inferredMetricsTieBreakers>
 </document>

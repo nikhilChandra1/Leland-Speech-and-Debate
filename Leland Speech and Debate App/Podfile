@@ -13,6 +13,8 @@ pod 'Firebase/Database'
 pod 'Firebase/Firestore'
 pod 'FirebaseFirestoreSwift'
 pod 'DropDown'
+pod 'Google-Mobile-Ads-SDK'
+
 
 
 # add pods for any other desired Firebase products
