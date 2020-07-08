@@ -10,9 +10,6 @@
 		1C016867CDB7A183FCBE637F /* Pods_Leland_Speech_and_Debate_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BE5E763E14BFA7AD8B168D /* Pods_Leland_Speech_and_Debate_App.framework */; };
 		38A9D7F076E6128BCC9EF98B /* Pods_Leland_Speech_and_Debate_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */; };
 		49B010BA52F211678846D5CE /* Pods_Leland_Speech_and_Debate_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1386A76BC8A00F54925A0B /* Pods_Leland_Speech_and_Debate_AppTests.framework */; };
-		E6027A7524B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */ = {isa = PBXBuildFile; fileRef = E6027A7424B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 */; };
-		E6027A7624B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */ = {isa = PBXBuildFile; fileRef = E6027A7424B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 */; };
-		E6027A7724B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */ = {isa = PBXBuildFile; fileRef = E6027A7424B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 */; };
 		E62703BA24B277B400834D52 /* ScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */; };
 		E62703BB24B277B400834D52 /* ScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */; };
 		E62703BC24B277B400834D52 /* ScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */; };
@@ -169,6 +166,9 @@
 		E681D5C924B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
 		E681D5CA24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
 		E681D5CB24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */; };
+		E6CBE4A824B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */ = {isa = PBXBuildFile; fileRef = E6CBE4A724B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 */; };
+		E6CBE4A924B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */ = {isa = PBXBuildFile; fileRef = E6CBE4A724B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 */; };
+		E6CBE4AA24B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */ = {isa = PBXBuildFile; fileRef = E6CBE4A724B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 */; };
 		E6CFBA4924B3E82D00FF856A /* webPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CFBA4824B3E82D00FF856A /* webPageViewController.swift */; };
 		E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */; };
 		E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */; };
@@ -209,7 +209,6 @@
 		657F92FA10A5FC3430EE0CBF /* Pods-Leland Speech and Debate AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppTests.release.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppTests/Pods-Leland Speech and Debate AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7834461DAA336B8A3CF94F72 /* Pods_Leland_Speech_and_Debate_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leland_Speech_and_Debate_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6027A7424B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "GoogleMobileAdsSdkiOS-7.61.0"; path = "../../../../../Desktop/GoogleMobileAdsSdkiOS-7.61.0"; sourceTree = "<group>"; };
 		E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCollectionViewCell.swift; sourceTree = "<group>"; };
 		E6389F6424B1C7A7006ADDD4 /* scrollCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollCollectionViewController.swift; sourceTree = "<group>"; };
 		E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionPageController.swift; sourceTree = "<group>"; };
@@ -263,6 +262,7 @@
 		E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
 		E681D5C424B0720200447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentInfoViewController.swift; sourceTree = "<group>"; };
+		E6CBE4A724B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleMobileAdsSdkiOS-7.61.0"; sourceTree = SOURCE_ROOT; };
 		E6CFBA4824B3E82D00FF856A /* webPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webPageViewController.swift; sourceTree = "<group>"; };
 		E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leland Speech and Debate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -433,8 +433,8 @@
 				E6D10E2724ADC8CF005422E1 /* ViewController.swift */,
 				E6D10E2924ADC8CF005422E1 /* Main.storyboard */,
 				E6CFBA4824B3E82D00FF856A /* webPageViewController.swift */,
+				E6CBE4A724B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 */,
 				E6389F6424B1C7A7006ADDD4 /* scrollCollectionViewController.swift */,
-				E6027A7424B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 */,
 				E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */,
 				E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */,
 				E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */,
@@ -589,7 +589,7 @@
 				E681D56A24B02EC500447BC5 /* Second Menu Button@2x.png in Resources */,
 				E681D58824B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
 				E681D53424B02EC500447BC5 /* #1 Team in the nation.png in Resources */,
-				E6027A7524B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
+				E6CBE4A824B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
 				E681D51F24B02EC500447BC5 /* Our Mission.png in Resources */,
 				E681D56124B02EC500447BC5 /* First Menu Button.png in Resources */,
 				E6D10E3324ADC8D2005422E1 /* LaunchScreen.storyboard in Resources */,
@@ -661,7 +661,7 @@
 				E681D55324B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D5B924B02EC500447BC5 /* Second Menu Button.png in Resources */,
 				E681D58624B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
-				E6027A7624B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
+				E6CBE4A924B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
 				E681D58C24B02EC500447BC5 /* Back Button@3x.png in Resources */,
 				E681D52924B02EC500447BC5 /* Tournament button@3x.png in Resources */,
 				E681D58924B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
@@ -719,7 +719,7 @@
 				E681D55424B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
 				E681D5BA24B02EC500447BC5 /* Second Menu Button.png in Resources */,
 				E681D58724B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
-				E6027A7724B5ACA1009E07E8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
+				E6CBE4AA24B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
 				E681D58D24B02EC500447BC5 /* Back Button@3x.png in Resources */,
 				E681D52A24B02EC500447BC5 /* Tournament button@3x.png in Resources */,
 				E681D58A24B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
