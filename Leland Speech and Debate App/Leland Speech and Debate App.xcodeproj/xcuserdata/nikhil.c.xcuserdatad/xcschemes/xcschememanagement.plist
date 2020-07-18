@@ -7,7 +7,25 @@
 		<key>Leland Speech and Debate App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>28</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E6D10E1F24ADC8CF005422E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6D10E3824ADC8D2005422E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6D10E4324ADC8D2005422E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

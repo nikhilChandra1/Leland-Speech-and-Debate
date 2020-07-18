@@ -14,6 +14,9 @@
 		E62703BB24B277B400834D52 /* ScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */; };
 		E62703BC24B277B400834D52 /* ScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */; };
 		E6389F6524B1C7A7006ADDD4 /* scrollCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6389F6424B1C7A7006ADDD4 /* scrollCollectionViewController.swift */; };
+		E645142E24C19E7D00CAF205 /* Lincoln Douglas.png in Resources */ = {isa = PBXBuildFile; fileRef = E645142D24C19E7D00CAF205 /* Lincoln Douglas.png */; };
+		E645142F24C19E7D00CAF205 /* Lincoln Douglas.png in Resources */ = {isa = PBXBuildFile; fileRef = E645142D24C19E7D00CAF205 /* Lincoln Douglas.png */; };
+		E645143024C19E7D00CAF205 /* Lincoln Douglas.png in Resources */ = {isa = PBXBuildFile; fileRef = E645142D24C19E7D00CAF205 /* Lincoln Douglas.png */; };
 		E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
 		E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
 		E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */; };
@@ -182,6 +185,17 @@
 		E6D8997224B47449007CE0DA /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D8997124B47449007CE0DA /* Sign up as a student.png */; };
 		E6D8997324B47449007CE0DA /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D8997124B47449007CE0DA /* Sign up as a student.png */; };
 		E6D8997424B47449007CE0DA /* Sign up as a student.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D8997124B47449007CE0DA /* Sign up as a student.png */; };
+		E6F4D96C24C1A22200893F9C /* eventCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4D96B24C1A22200893F9C /* eventCustomCell.swift */; };
+		E6F4D96E24C1A28600893F9C /* eventsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4D96D24C1A28600893F9C /* eventsCollectionViewController.swift */; };
+		E6F4D96F24C1A9CE00893F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */; };
+		E6F4D97024C1A9CE00893F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D10E2F24ADC8D2005422E1 /* Assets.xcassets */; };
+		E6F4D97124C1AC3100893F9C /* eventsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4D96D24C1A28600893F9C /* eventsCollectionViewController.swift */; };
+		E6F4D97224C1AC3200893F9C /* eventsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4D96D24C1A28600893F9C /* eventsCollectionViewController.swift */; };
+		E6F4D97424C1B88B00893F9C /* GravitySliderFlowLayout in Resources */ = {isa = PBXBuildFile; fileRef = E6F4D97324C1B88B00893F9C /* GravitySliderFlowLayout */; };
+		E6F4D97524C1B88B00893F9C /* GravitySliderFlowLayout in Resources */ = {isa = PBXBuildFile; fileRef = E6F4D97324C1B88B00893F9C /* GravitySliderFlowLayout */; };
+		E6F4D97624C1B88B00893F9C /* GravitySliderFlowLayout in Resources */ = {isa = PBXBuildFile; fileRef = E6F4D97324C1B88B00893F9C /* GravitySliderFlowLayout */; };
+		E6F4D97C24C1C5AB00893F9C /* GravitySliderFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4D97B24C1C5AB00893F9C /* GravitySliderFlowLayout.swift */; };
+		E6F4D97E24C2362E00893F9C /* About Each Event.png in Resources */ = {isa = PBXBuildFile; fileRef = E6F4D97D24C2362E00893F9C /* About Each Event.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +225,7 @@
 		B39F495E22F465BC6E0C96C3 /* Pods-Leland Speech and Debate AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCollectionViewCell.swift; sourceTree = "<group>"; };
 		E6389F6424B1C7A7006ADDD4 /* scrollCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollCollectionViewController.swift; sourceTree = "<group>"; };
+		E645142D24C19E7D00CAF205 /* Lincoln Douglas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lincoln Douglas.png"; sourceTree = "<group>"; };
 		E681D4BB24AFD9A200447BC5 /* OurMissionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMissionPageController.swift; sourceTree = "<group>"; };
 		E681D4E824B02EC500447BC5 /* Our Mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Our Mission.png"; sourceTree = "<group>"; };
 		E681D4E924B02EC500447BC5 /* Component 2 – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Component 2 – 1@2x.png"; sourceTree = "<group>"; };
@@ -262,7 +277,7 @@
 		E681D51E24B02EC500447BC5 /* Sign Up a Judge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up a Judge@2x.png"; sourceTree = "<group>"; };
 		E681D5C424B0720200447BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentInfoViewController.swift; sourceTree = "<group>"; };
-		E6CBE4A724B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleMobileAdsSdkiOS-7.61.0"; sourceTree = SOURCE_ROOT; };
+		E6CBE4A724B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GoogleMobileAdsSdkiOS-7.61.0"; sourceTree = SOURCE_ROOT; };
 		E6CFBA4824B3E82D00FF856A /* webPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webPageViewController.swift; sourceTree = "<group>"; };
 		E6D10E2024ADC8CF005422E1 /* Leland Speech and Debate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leland Speech and Debate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -280,6 +295,11 @@
 		E6D10E4824ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leland_Speech_and_Debate_AppUITests.swift; sourceTree = "<group>"; };
 		E6D10E4A24ADC8D2005422E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6D8997124B47449007CE0DA /* Sign up as a student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign up as a student.png"; sourceTree = "<group>"; };
+		E6F4D96B24C1A22200893F9C /* eventCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventCustomCell.swift; sourceTree = "<group>"; };
+		E6F4D96D24C1A28600893F9C /* eventsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsCollectionViewController.swift; sourceTree = "<group>"; };
+		E6F4D97324C1B88B00893F9C /* GravitySliderFlowLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GravitySliderFlowLayout; sourceTree = "<group>"; };
+		E6F4D97B24C1C5AB00893F9C /* GravitySliderFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravitySliderFlowLayout.swift; sourceTree = "<group>"; };
+		E6F4D97D24C2362E00893F9C /* About Each Event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About Each Event.png"; sourceTree = "<group>"; };
 		E957D9BE0A29AC34D36E4BEA /* Pods-Leland Speech and Debate AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leland Speech and Debate AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Leland Speech and Debate AppUITests/Pods-Leland Speech and Debate AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF1386A76BC8A00F54925A0B /* Pods_Leland_Speech_and_Debate_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leland_Speech_and_Debate_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -350,12 +370,14 @@
 				E681D4EA24B02EC500447BC5 /* Tournament button@2x.png */,
 				E6D8997124B47449007CE0DA /* Sign up as a student.png */,
 				E681D4EB24B02EC500447BC5 /* Tournament button@3x.png */,
+				E6F4D97D24C2362E00893F9C /* About Each Event.png */,
 				E681D4EC24B02EC500447BC5 /* Component 2 – 1@3x.png */,
 				E681D4ED24B02EC500447BC5 /* Drop Down Meenu.png */,
 				E681D4EE24B02EC500447BC5 /* Saint Francis Invitational Title.png */,
 				E681D4EF24B02EC500447BC5 /* #1 Team in the nation.png */,
 				E681D4F124B02EC500447BC5 /* Information Button.png */,
 				E681D4F324B02EC500447BC5 /* Our Mission@3x.png */,
+				E645142D24C19E7D00CAF205 /* Lincoln Douglas.png */,
 				E681D4F424B02EC500447BC5 /* Tournament Info Label@3x.png */,
 				E681D4F524B02EC500447BC5 /* Events.png */,
 				E681D4F624B02EC500447BC5 /* Tournament Info Label@2x.png */,
@@ -429,6 +451,8 @@
 				E6D10E2324ADC8CF005422E1 /* AppDelegate.swift */,
 				E62703B924B277B300834D52 /* ScrollCollectionViewCell.swift */,
 				E681D5C824B07AFB00447BC5 /* TournamentInfoViewController.swift */,
+				E6F4D96B24C1A22200893F9C /* eventCustomCell.swift */,
+				E6F4D96D24C1A28600893F9C /* eventsCollectionViewController.swift */,
 				E6D10E2524ADC8CF005422E1 /* SceneDelegate.swift */,
 				E6D10E2724ADC8CF005422E1 /* ViewController.swift */,
 				E6D10E2924ADC8CF005422E1 /* Main.storyboard */,
@@ -440,7 +464,9 @@
 				E6D10E3124ADC8D2005422E1 /* LaunchScreen.storyboard */,
 				E6D10E3424ADC8D2005422E1 /* Info.plist */,
 				E6D10E2C24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld */,
+				E6F4D97B24C1C5AB00893F9C /* GravitySliderFlowLayout.swift */,
 				E681D5C424B0720200447BC5 /* GoogleService-Info.plist */,
+				E6F4D97324C1B88B00893F9C /* GravitySliderFlowLayout */,
 			);
 			path = "Leland Speech and Debate App";
 			sourceTree = "<group>";
@@ -574,6 +600,7 @@
 				E681D55524B02EC500447BC5 /* Background for Tournaments.png in Resources */,
 				E681D59724B02EC500447BC5 /* Sign Up a Judge.png in Resources */,
 				E681D58E24B02EC500447BC5 /* Drop Down Meenu@3x.png in Resources */,
+				E6F4D97424C1B88B00893F9C /* GravitySliderFlowLayout in Resources */,
 				E681D55B24B02EC500447BC5 /* Saint Francis Invitational.png in Resources */,
 				E681D5C124B02EC500447BC5 /* Sign Up a Judge@2x.png in Resources */,
 				E681D5B524B02EC500447BC5 /* Background for Tournaments@3x.png in Resources */,
@@ -583,6 +610,7 @@
 				E681D54324B02EC500447BC5 /* Tournament Info Label@3x.png in Resources */,
 				E681D57C24B02EC500447BC5 /* Component 2 – 1.png in Resources */,
 				E681D5A624B02EC500447BC5 /* Saint Francis Invitational@2x.png in Resources */,
+				E6F4D97E24C2362E00893F9C /* About Each Event.png in Resources */,
 				E681D52524B02EC500447BC5 /* Tournament button@2x.png in Resources */,
 				E6D8997224B47449007CE0DA /* Sign up as a student.png in Resources */,
 				E681D52E24B02EC500447BC5 /* Drop Down Meenu.png in Resources */,
@@ -599,6 +627,7 @@
 				E681D54024B02EC500447BC5 /* Our Mission@3x.png in Resources */,
 				E6D10E3024ADC8D2005422E1 /* Assets.xcassets in Resources */,
 				E681D52B24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
+				E645142E24C19E7D00CAF205 /* Lincoln Douglas.png in Resources */,
 				E681D54624B02EC500447BC5 /* Events.png in Resources */,
 				E681D57624B02EC500447BC5 /* Tournament Info Label.png in Resources */,
 				E681D57924B02EC500447BC5 /* Logo.png in Resources */,
@@ -659,9 +688,11 @@
 				E681D52624B02EC500447BC5 /* Tournament button@2x.png in Resources */,
 				E681D55924B02EC500447BC5 /* Tournament button.png in Resources */,
 				E681D55324B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
+				E645142F24C19E7D00CAF205 /* Lincoln Douglas.png in Resources */,
 				E681D5B924B02EC500447BC5 /* Second Menu Button.png in Resources */,
 				E681D58624B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
 				E6CBE4A924B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
+				E6F4D96F24C1A9CE00893F9C /* Assets.xcassets in Resources */,
 				E681D58C24B02EC500447BC5 /* Back Button@3x.png in Resources */,
 				E681D52924B02EC500447BC5 /* Tournament button@3x.png in Resources */,
 				E681D58924B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
@@ -675,6 +706,7 @@
 				E681D5A424B02EC500447BC5 /* Back Button.png in Resources */,
 				E681D55624B02EC500447BC5 /* Background for Tournaments.png in Resources */,
 				E681D59224B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E6F4D97524C1B88B00893F9C /* GravitySliderFlowLayout in Resources */,
 				E681D52C24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
 				E681D5BF24B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
 				E681D54124B02EC500447BC5 /* Our Mission@3x.png in Resources */,
@@ -717,9 +749,11 @@
 				E681D52724B02EC500447BC5 /* Tournament button@2x.png in Resources */,
 				E681D55A24B02EC500447BC5 /* Tournament button.png in Resources */,
 				E681D55424B02EC500447BC5 /* GoogleService-Info.plist in Resources */,
+				E645143024C19E7D00CAF205 /* Lincoln Douglas.png in Resources */,
 				E681D5BA24B02EC500447BC5 /* Second Menu Button.png in Resources */,
 				E681D58724B02EC500447BC5 /* Saint Francis Invitational Title@3x.png in Resources */,
 				E6CBE4AA24B67714005E78D8 /* GoogleMobileAdsSdkiOS-7.61.0 in Resources */,
+				E6F4D97024C1A9CE00893F9C /* Assets.xcassets in Resources */,
 				E681D58D24B02EC500447BC5 /* Back Button@3x.png in Resources */,
 				E681D52A24B02EC500447BC5 /* Tournament button@3x.png in Resources */,
 				E681D58A24B02EC500447BC5 /* Second Menu Button@3x.png in Resources */,
@@ -733,6 +767,7 @@
 				E681D5A524B02EC500447BC5 /* Back Button.png in Resources */,
 				E681D55724B02EC500447BC5 /* Background for Tournaments.png in Resources */,
 				E681D59324B02EC500447BC5 /* Sign Up a Judge@3x.png in Resources */,
+				E6F4D97624C1B88B00893F9C /* GravitySliderFlowLayout in Resources */,
 				E681D52D24B02EC500447BC5 /* Component 2 – 1@3x.png in Resources */,
 				E681D5C024B02EC500447BC5 /* Drop Down Meenu@2x.png in Resources */,
 				E681D54224B02EC500447BC5 /* Our Mission@3x.png in Resources */,
@@ -839,12 +874,15 @@
 				E6D10E2824ADC8CF005422E1 /* ViewController.swift in Sources */,
 				E62703BA24B277B400834D52 /* ScrollCollectionViewCell.swift in Sources */,
 				E6D10E2424ADC8CF005422E1 /* AppDelegate.swift in Sources */,
+				E6F4D96E24C1A28600893F9C /* eventsCollectionViewController.swift in Sources */,
 				E681D4BC24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E681D5C924B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
+				E6F4D96C24C1A22200893F9C /* eventCustomCell.swift in Sources */,
 				E6CFBA4924B3E82D00FF856A /* webPageViewController.swift in Sources */,
 				E6D10E2E24ADC8CF005422E1 /* Leland_Speech_and_Debate_App.xcdatamodeld in Sources */,
 				E6D10E2624ADC8CF005422E1 /* SceneDelegate.swift in Sources */,
 				E6389F6524B1C7A7006ADDD4 /* scrollCollectionViewController.swift in Sources */,
+				E6F4D97C24C1C5AB00893F9C /* GravitySliderFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +890,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F4D97124C1AC3100893F9C /* eventsCollectionViewController.swift in Sources */,
 				E681D5CA24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
 				E681D4BD24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E6D10E3E24ADC8D2005422E1 /* Leland_Speech_and_Debate_AppTests.swift in Sources */,
@@ -863,6 +902,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F4D97224C1AC3200893F9C /* eventsCollectionViewController.swift in Sources */,
 				E681D5CB24B07AFB00447BC5 /* TournamentInfoViewController.swift in Sources */,
 				E681D4BE24AFD9A200447BC5 /* OurMissionPageController.swift in Sources */,
 				E6D10E4924ADC8D2005422E1 /* Leland_Speech_and_Debate_AppUITests.swift in Sources */,

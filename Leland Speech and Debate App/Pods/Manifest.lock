@@ -212,12 +212,16 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - AnimatedCollectionViewLayout (1.0.1)
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Implementation (0.0.7):
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Interface (0.0.7)
+  - BouncyLayout (2.3.0)
+  - CardsLayout (0.0.1)
+  - CarLensCollectionViewLayout (1.2.0)
   - DropDown (2.3.13)
   - Firebase (6.27.0):
     - Firebase/Core (= 6.27.0)
@@ -305,6 +309,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.6.0):
     - GoogleUtilities/Logger
+  - GravitySliderFlowLayout (1.0)
   - "gRPC-C++ (1.28.2)":
     - "gRPC-C++/Implementation (= 1.28.2)"
     - "gRPC-C++/Interface (= 1.28.2)"
@@ -336,8 +341,15 @@ PODS:
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
   - PromisesObjC (1.2.9)
+  - RAMReel (4.1.0)
+  - VegaScrollFlowLayout (1.1)
+  - VerticalCardSwiper (2.2.0)
 
 DEPENDENCIES:
+  - AnimatedCollectionViewLayout
+  - BouncyLayout
+  - CardsLayout
+  - CarLensCollectionViewLayout (~> 1.2.0)
   - DropDown
   - Firebase
   - Firebase/Analytics
@@ -345,11 +357,19 @@ DEPENDENCIES:
   - Firebase/Firestore
   - FirebaseFirestoreSwift
   - Google-Mobile-Ads-SDK
+  - GravitySliderFlowLayout
+  - RAMReel
+  - VegaScrollFlowLayout
+  - VerticalCardSwiper
 
 SPEC REPOS:
   trunk:
     - abseil
+    - AnimatedCollectionViewLayout
     - BoringSSL-GRPC
+    - BouncyLayout
+    - CardsLayout
+    - CarLensCollectionViewLayout
     - DropDown
     - Firebase
     - FirebaseAnalytics
@@ -364,15 +384,23 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - GravitySliderFlowLayout
     - "gRPC-C++"
     - gRPC-Core
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - RAMReel
+    - VegaScrollFlowLayout
+    - VerticalCardSwiper
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  AnimatedCollectionViewLayout: 00f0997fd26f0fd02d8b99765023b95570b5d826
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
+  BouncyLayout: 946047ef4987959bc107731c665ca4fdcdef5e17
+  CardsLayout: ceeb8f9c26319b47a2f0995ea4590cf7ba881462
+  CarLensCollectionViewLayout: 75a28307dbd7dbacbba417d13501415ff3471a68
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   Firebase: fc4cbf6f1592636431821ef9a3c557e4dfd9f268
   FirebaseAnalytics: 0ea640473474f036cabbc2576e20c2d63671c92f
@@ -387,12 +415,16 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
   GoogleDataTransportCCTSupport: 489c1265d2c85b68187a83a911913d190012158d
   GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  GravitySliderFlowLayout: bb9ae6a302b85821c9e0271c00533fae8091143b
   "gRPC-C++": 13d8ccef97d5c3c441b7e3c529ef28ebee86fad2
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  RAMReel: 198e41f62d65f54c44797679ade03b4a1cef9709
+  VegaScrollFlowLayout: 9158061f29179147755f937c2b21693fc5dbbac3
+  VerticalCardSwiper: 41c8c0d8d87511ec269347f5671386acf66cd31a
 
-PODFILE CHECKSUM: 3555a83ee62ae76d0a3043350231805e156e8bb3
+PODFILE CHECKSUM: 4e980704917e86ffbce348b2f64fd778b4d0df18
 
 COCOAPODS: 1.9.3

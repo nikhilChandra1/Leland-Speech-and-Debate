@@ -14,6 +14,14 @@ pod 'Firebase/Firestore'
 pod 'FirebaseFirestoreSwift'
 pod 'DropDown'
 pod 'Google-Mobile-Ads-SDK'
+pod 'VegaScrollFlowLayout'
+pod 'RAMReel'
+pod 'GravitySliderFlowLayout'
+pod "BouncyLayout"
+pod 'CardsLayout'
+pod 'CarLensCollectionViewLayout', '~> 1.2.0'
+pod 'VerticalCardSwiper'
+pod 'AnimatedCollectionViewLayout'
 
 
 
