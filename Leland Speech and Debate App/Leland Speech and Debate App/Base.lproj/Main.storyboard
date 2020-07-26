@@ -500,6 +500,21 @@
             </objects>
             <point key="canvasLocation" x="3112.8000000000002" y="-979.16041979010504"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tTz-J2-2pQ">
+            <objects>
+                <viewController id="RAv-yD-Trw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rea-bW-Rhm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2yW-yP-emp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIE-Gr-0rK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3930" y="-978"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="vM9-wJ-UwK">
             <objects>
@@ -534,7 +549,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0lI-fH-CDH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3986.4000000000001" y="-355.7721139430285"/>
+            <point key="canvasLocation" x="4001" y="-223"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FPx-xQ-NKz">
@@ -572,6 +587,109 @@
             </objects>
             <point key="canvasLocation" x="2173.5999999999999" y="-979.16041979010504"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="UIm-4A-MDO">
+            <objects>
+                <tableViewController storyboardIdentifier="MainTableViewController" id="tOo-O6-Bii" customClass="TableViewController" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="667" sectionHeaderHeight="28" sectionFooterHeight="28" id="GEI-PR-x2Z">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="708"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexBackgroundColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FoldingCell" rowHeight="667" id="ouw-s8-WTW" customClass="DemoCell" customModule="Leland_Speech_and_Debate_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ouw-s8-WTW" id="j63-Mb-yGD">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r8F-CJ-Rg5" userLabel="Foreground" customClass="RotatedView" customModule="FoldingCell">
+                                            <rect key="frame" x="20" y="7" width="560" height="165"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lincoln Douglas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWb-ge-dW0">
+                                                    <rect key="frame" x="-20" y="8" width="600" height="157"/>
+                                                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="600" id="PRV-Q7-5cy"/>
+                                                        <constraint firstAttribute="height" constant="157" id="adv-TP-0Rl"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="56"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="165" id="2KC-Cv-EpS"/>
+                                                <constraint firstItem="jWb-ge-dW0" firstAttribute="top" secondItem="r8F-CJ-Rg5" secondAttribute="top" constant="8" id="4TG-eh-rAW"/>
+                                                <constraint firstItem="jWb-ge-dW0" firstAttribute="centerX" secondItem="r8F-CJ-Rg5" secondAttribute="centerX" id="dg2-d3-rMx"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAf-iy-GSD" userLabel="Container">
+                                            <rect key="frame" x="20" y="180" width="560" height="479"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Events" translatesAutoresizingMaskIntoConstraints="NO" id="Pd3-7G-Qmp">
+                                                    <rect key="frame" x="-22" y="8" width="604" height="425"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="425" id="BAF-q8-wft"/>
+                                                        <constraint firstAttribute="width" constant="604" id="nld-8r-EvF"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Pd3-7G-Qmp" secondAttribute="bottom" constant="46" id="4m7-gc-NhG"/>
+                                                <constraint firstAttribute="height" constant="479" id="9Rq-de-ZRH"/>
+                                                <constraint firstItem="Pd3-7G-Qmp" firstAttribute="centerX" secondItem="WAf-iy-GSD" secondAttribute="centerX" id="nWp-UF-d2J"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstItem="WAf-iy-GSD" firstAttribute="leading" secondItem="j63-Mb-yGD" secondAttribute="leading" constant="20" id="6RM-YI-rmJ"/>
+                                        <constraint firstItem="WAf-iy-GSD" firstAttribute="top" secondItem="j63-Mb-yGD" secondAttribute="top" constant="180" identifier="ContainerViewTop" id="9EC-f2-aX3"/>
+                                        <constraint firstItem="r8F-CJ-Rg5" firstAttribute="top" secondItem="j63-Mb-yGD" secondAttribute="top" constant="7" identifier="ForegroundViewTop" id="ER8-em-EHd"/>
+                                        <constraint firstItem="r8F-CJ-Rg5" firstAttribute="leading" secondItem="j63-Mb-yGD" secondAttribute="leading" constant="20" id="V5w-uB-hQT"/>
+                                        <constraint firstAttribute="trailing" secondItem="r8F-CJ-Rg5" secondAttribute="trailing" constant="20" id="nJW-fM-VSm"/>
+                                        <constraint firstAttribute="trailing" secondItem="WAf-iy-GSD" secondAttribute="trailing" constant="20" id="oQq-X9-PK3"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.084232546389999996" green="0.14705014229999999" blue="0.23530441520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backViewColor">
+                                        <color key="value" red="0.96862745100000003" green="0.93725490199999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="itemCount">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="containerView" destination="WAf-iy-GSD" id="P8q-Ub-HyY"/>
+                                    <outlet property="containerViewTop" destination="9EC-f2-aX3" id="QtR-Fa-D71"/>
+                                    <outlet property="eventImage" destination="Pd3-7G-Qmp" id="pKI-Br-CSq"/>
+                                    <outlet property="eventLabel" destination="jWb-ge-dW0" id="JQM-tg-KXe"/>
+                                    <outlet property="foregroundView" destination="r8F-CJ-Rg5" id="V1O-0g-HmQ"/>
+                                    <outlet property="foregroundViewTop" destination="ER8-em-EHd" id="azo-MC-dpJ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tOo-O6-Bii" id="zsM-Cd-J9s"/>
+                            <outlet property="delegate" destination="tOo-O6-Bii" id="Qvd-C1-4qE"/>
+                        </connections>
+                    </tableView>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="708"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qaQ-Nj-JPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-494.39999999999998" y="985.90704647676171"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="cgY-yZ-Lpv"/>
@@ -581,6 +699,7 @@
         <image name="#1 Team in the nation.png" width="385" height="83"/>
         <image name="Back Button.png" width="13.5" height="21.5"/>
         <image name="Background for Tournaments.png" width="225" height="402"/>
+        <image name="Events" width="619.5" height="6581"/>
         <image name="First Menu Button.png" width="26.5" height="26.5"/>
         <image name="Information Button.png" width="306" height="54"/>
         <image name="Lincoln Douglas.png" width="581" height="987"/>

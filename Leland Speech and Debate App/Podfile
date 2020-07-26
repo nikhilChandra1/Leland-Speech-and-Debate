@@ -22,6 +22,7 @@ pod 'CardsLayout'
 pod 'CarLensCollectionViewLayout', '~> 1.2.0'
 pod 'VerticalCardSwiper'
 pod 'AnimatedCollectionViewLayout'
+pod 'FoldingCell'
 
 
 
